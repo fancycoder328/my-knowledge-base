@@ -4,8 +4,10 @@ import Link from "@/components/Link";
 import ParagraphSecondaryHeader from "@/components/ParagraphSecondaryHeader";
 import Redirect from "@/components/Redirect";
 import ReferencingVisual from "@/components/ReferencingVisual";
-import { div } from "three/examples/jsm/nodes/Nodes.js";
 import Divider from "@/components/Divider";
+import MainArticle from "@/components/MainArticle";
+import TwoByTwoFormula from "@/components/TwoByTwoFormula";
+import HighLightText from "@/components/HighLightText";
 
 export default function Human() {
 
@@ -225,7 +227,64 @@ export default function Human() {
             <p>
                 In 2018, 4.2 billion humans (55%) lived in urban areas, up from 751 million in 1950. The most urbanized regions are Northern America (82%), Latin America (81%), Europe (74%) and Oceania (68%), with Africa and Asia having nearly 90% of the world&apos;s 3.4 billion rural population. Problems for humans living in cities include various forms of pollution and crime, especially in inner city and suburban slums. Humans have had a dramatic effect on the environment. They are apex predators, being rarely preyed upon by other species. Human population growth, industrialization, land development, overconsumption and combustion of fossil fuels have led to environmental destruction and pollution that significantly contributes to the ongoing mass extinction of other forms of life.
             </p>
-            <ParagraphSecondaryHeader id="This_can_be_expanded">This can be expanded</ParagraphSecondaryHeader>
+            <ParagraphSecondaryHeader id="Biology">Biology</ParagraphSecondaryHeader>
+            <h1 className="text-xl font-bold">Anatomy and physiology</h1>
+            <br />
+            <br />
+            <MainArticle slug="Human_body" title="Human body" />
+            <ReferencingVisual src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Anterior_view_of_human_female_and_male%2C_with_labels_2.png/495px-Anterior_view_of_human_female_and_male%2C_with_labels_2.png" w={450} h={500} caption={
+                (
+                    <>
+                        Basic anatomical features of female and male humans. These models have had body hair and male facial hair removed and head hair trimmed.
+                    </>
+                )
+            } />
+            <br />
+            <p id="Biology">
+                Most aspects of human physiology are closely homologous to corresponding aspects of animal physiology. The dental formula of humans is:
+            </p>
+            <TwoByTwoFormula firstFraction="2.1.2.3" secondFraction="2.1.2.3" className="w-[44px]" />
+            <p>
+                Humans have proportionately shorter palates and much smaller teeth than other primates. They are the only primates to have short, relatively flush canine teeth. Humans have characteristically crowded teeth, with gaps from lost teeth usually closing up quickly in young individuals. Humans are gradually losing their third molars, with some individuals having them congenitally absent.
+                <br />
+                <br />
+                Humans share with chimpanzees a vestigial tail, appendix, flexible shoulder joints, grasping fingers and opposable thumbs. Humans also have a more barrel-shaped chests in contrast to the funnel shape of other apes, an adaptation for bipedal respiration. Apart from bipedalism and brain size, humans differ from chimpanzees mostly in smelling, hearing and digesting proteins. While humans have a density of hair follicles comparable to other apes, it is predominantly vellus hair, most of which is so short and wispy as to be practically invisible. Humans have about 2 million sweat glands spread over their entire bodies, many more than chimpanzees, whose sweat glands are scarce and are mainly located on the palm of the hand and on the soles of the feet.
+                <br />
+                <br />
+                It is estimated that the worldwide average height for an adult human male is about 171 cm (5 ft 7 in), while the worldwide average height for adult human females is about 159 cm (5 ft 3 in). Shrinkage of stature may begin in middle age in some individuals but tends to be typical in the extremely aged. Throughout history, human populations have universally become taller, probably as a consequence of better nutrition, healthcare, and living conditions. The average mass of an adult human is 59 kg (130 lb) for females and 77 kg (170 lb) for males. Like many other conditions, body weight and body type are influenced by both genetic susceptibility and environment and varies greatly among individuals.
+                <br />
+                <br />
+                Humans have a far faster and more accurate throw than other animals. Humans are also among the best long-distance runners in the animal kingdom, but slower over short distances. Humans&apos; thinner body hair and more productive sweat glands help avoid heat exhaustion while running for long distances. Compared to other apes, the human heart produces greater stroke volume and cardiac output and the aorta is proportionately larger.
+            </p>
+            <br />
+            <br />
+            <h1 className="text-xl font-bold">Genetics</h1>
+            <br />
+            <ReferencingVisual src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Karyotype.png/330px-Karyotype.png" w={450} h={480} caption={
+                (
+                    <>
+                        A graphical representation of the standard human karyotype, including both the female (XX) and male (XY) sex chromosomes.
+                    </>
+                )
+            } />
+            <br />
+            <br />
+            <p>
+                Like most <Link slug="Animal" title="animals" />, humans are a <Link slug="Diploid" title="diploid" /> and <Link slug="Eukaryote" title="eukaryotic" /> species. Each somatic cell has two sets of <Bold>23 chromosomes</Bold>, each set received from one parent; <Link slug="Gamete" title="gametes" /> have only one set of <Link slug="Chromosome" title="chromosomes" />, which is a mixture of the two parental sets. Among the 23 pairs of chromosomes, there are <Bold>22 pairs of autosomes</Bold> and <HighLightText text="one pair of sex chromosomes" />. Like other <Link slug="Mammal" title="mammals" />, humans have an <HighLightText text="XY sex-determination system" />, so <HighLightText text="that females have the sex chromosomes XX and males have XY" />. <Link slug="Gene" title="Genes" /> and environment influence human biological variation in visible characteristics, physiology, disease susceptibility and mental abilities. The exact influence of genes and environment on certain traits is not well understood.
+                <br />
+                <br />
+                While no humans – not even monozygotic twins – are genetically identical, two humans on average will have a genetic similarity of 99.5%-99.9%. This makes them more homogeneous than other great apes, including chimpanzees. This small variation in human DNA compared to many other species suggests a population bottleneck during the Late Pleistocene (around 100,000 years ago), in which the human population was reduced to a small number of breeding pairs. The forces of natural selection have continued to operate on human populations, with evidence that certain regions of the genome display directional selection in the past 15,000 years.
+                <br />
+                <br />
+                The human genome was <HighLightText text="first sequenced in 2001 and by 2020 hundreds of thousands of genomes had been sequenced" />. In 2012 the International HapMap Project had compared the genomes of 1,184 individuals from 11 populations and identified 1.6 million single nucleotide polymorphisms. African populations harbor the highest number of private genetic variants. While many of the common variants found in populations outside of Africa are also found on the African continent, there are still large numbers that are private to these regions, especially Oceania and the Americas. By 2010 estimates, humans have approximately 22,000 genes. By comparing mitochondrial DNA, which is inherited only from the mother, geneticists have concluded that the last female common ancestor whose genetic marker is found in all modern humans, the so-called mitochondrial Eve, must have lived around 90,000 to 200,000 years ago.
+            </p>
+            <br />
+            <h1 className="text-xl font-bold">Life cycle</h1>
+            <br />
+            <p>
+                <HighLightText text="Most human reproduction takes place by internal fertilization via sexual intercourse, but can also occur through assisted reproductive technology procedures" />. The <HighLightText text="average gestation period is 38 weeks, but a normal pregnancy can vary by up to 37 days" />. Embryonic development in the human covers the first eight weeks of development; at the beginning of the ninth week the embryo is termed a fetus. Humans are able to induce early labor or perform a caesarean section if the child needs to be born earlier for medical reasons. In developed countries, infants are typically 3–4 kg (7–9 lb) in weight and 47–53 cm (19–21 in) in height at birth. However, low birth weight is common in developing countries, and contributes to the high levels of infant mortality in these regions.
+            </p>
+            <ParagraphSecondaryHeader id="This_can_be_continued">This can be continued</ParagraphSecondaryHeader>
             <ParagraphSecondaryHeader id="Scientific_classification">Scientific classification</ParagraphSecondaryHeader>
             <p id="Scientific_classification">
                 <Bold>Domain</Bold>: <Link slug="Eukaryote" title="Eukaryota" />;<br /><Bold>Kingdom</Bold>: <Bold>Animalia</Bold>;<br /><Bold>Phylum</Bold>: <Bold>Chordata</Bold>;<br /><Bold>Class</Bold>: <Bold>Mammalia</Bold>;<br /><Bold>Order</Bold>: <Link slug="Primate" title="Primates" />;<br /><Bold>Suborder</Bold>: <Bold>Haplorhini</Bold>;<br /><Bold>Infraorder</Bold>: <Bold>Simiiformes</Bold>;<br /><Bold>Family</Bold>: <Link slug="Hominidae" title="Hominidae" />;<br /><Bold>Subfamily</Bold>: <Bold>Homininae</Bold>;<br /><Bold>Tribe</Bold>: <Bold>Hominini</Bold>;<br /><Bold>Genus</Bold>: <Link slug="Homo" title="Homo" />;<br /><Bold>Species</Bold>: <Bold>Homo Sapiens</Bold>;<br /><Bold>Binomial name</Bold>: <Bold>Homo sapiens</Bold>;
