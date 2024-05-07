@@ -228,9 +228,8 @@ export default function Human() {
                 In 2018, 4.2 billion humans (55%) lived in urban areas, up from 751 million in 1950. The most urbanized regions are Northern America (82%), Latin America (81%), Europe (74%) and Oceania (68%), with Africa and Asia having nearly 90% of the world&apos;s 3.4 billion rural population. Problems for humans living in cities include various forms of pollution and crime, especially in inner city and suburban slums. Humans have had a dramatic effect on the environment. They are apex predators, being rarely preyed upon by other species. Human population growth, industrialization, land development, overconsumption and combustion of fossil fuels have led to environmental destruction and pollution that significantly contributes to the ongoing mass extinction of other forms of life.
             </p>
             <ParagraphSecondaryHeader id="Biology">Biology</ParagraphSecondaryHeader>
+            <span id="Biology"></span>
             <h1 className="text-xl font-bold">Anatomy and physiology</h1>
-            <br />
-            <br />
             <MainArticle slug="Human_body" title="Human body" />
             <ReferencingVisual src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Anterior_view_of_human_female_and_male%2C_with_labels_2.png/495px-Anterior_view_of_human_female_and_male%2C_with_labels_2.png" w={450} h={500} caption={
                 (
@@ -240,7 +239,7 @@ export default function Human() {
                 )
             } />
             <br />
-            <p id="Biology">
+            <p>
                 Most aspects of human physiology are closely homologous to corresponding aspects of animal physiology. The dental formula of humans is:
             </p>
             <TwoByTwoFormula firstFraction="2.1.2.3" secondFraction="2.1.2.3" className="w-[44px]" />
@@ -281,8 +280,171 @@ export default function Human() {
             <br />
             <h1 className="text-xl font-bold">Life cycle</h1>
             <br />
+            <ReferencingVisual src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Tubal_Pregnancy_with_embryo.jpg/220px-Tubal_Pregnancy_with_embryo.jpg" w={250} h={300} caption={
+                (
+                    <>
+                        A 10 mm human embryo at 5 weeks
+                    </>
+                )
+            } />
             <p>
                 <HighLightText text="Most human reproduction takes place by internal fertilization via sexual intercourse, but can also occur through assisted reproductive technology procedures" />. The <HighLightText text="average gestation period is 38 weeks, but a normal pregnancy can vary by up to 37 days" />. Embryonic development in the human covers the first eight weeks of development; at the beginning of the ninth week the embryo is termed a fetus. Humans are able to induce early labor or perform a caesarean section if the child needs to be born earlier for medical reasons. In developed countries, infants are typically 3–4 kg (7–9 lb) in weight and 47–53 cm (19–21 in) in height at birth. However, low birth weight is common in developing countries, and contributes to the high levels of infant mortality in these regions.
+                <br />
+                <br />
+                <HighLightText text="Compared with other species, human childbirth is dangerous, with a much higher risk of complications and death" />. The size of the <HighLightText text="fetus&apos;s head is more closely matched to the pelvis" /> than in other <Link slug="Primate" title="primates" />. The reason for this is not completely understood, but it contributes to a painful labor that can last 24 hours or more. The chances of a <HighLightText text="successful labor increased significantly during the 20th century in wealthier countries with the advent of new medical technologies" />. In contrast, <HighLightText text="pregnancy and natural childbirth remain hazardous ordeals in developing regions of the world, with maternal death rates approximately 100 times greater than in developed countries" />.
+                <br />
+                <br />
+                Both the mother and the father provide care for human offspring, <HighLightText text="in contrast to other primates, where parental care is mostly done by the mother. Helpless at birth, humans continue to grow for some years, typically reaching sexual maturity at 15 to 17 years of age" />. The human life span has been split into various stages ranging from <Bold>three</Bold> to <Bold>twelve</Bold>. Common stages include <Bold>infancy</Bold>, <Bold>childhood</Bold>, <Bold>adolescence</Bold>, <Bold>adulthood</Bold> and <Bold>old age</Bold>. The lengths of these stages have varied across cultures and time periods but is typified by an unusually rapid growth spurt during adolescence. <HighLightText text="Human females undergo menopause and become infertile at around the age of 50" />. It has been proposed that menopause increases a woman&apos;s overall reproductive success by allowing her to invest more time and resources in her existing offspring, and in turn their children (the grandmother hypothesis), rather than by continuing to bear children into old age.
+                <br />
+                <br />
+                The <HighLightText text="life span of an individual depends on two major factors, genetics and lifestyle choices. For various reasons, including biological/genetic causes, women live on average about four years longer than men" />. As of 2018, the global average life expectancy at birth of a girl is estimated to be <Bold>74.9 years</Bold> compared to <Bold>70.4 years</Bold> for a boy. There are significant geographical variations in human life expectancy, mostly correlated with economic development – for example, life expectancy at birth in Hong Kong is 87.6 years for girls and 81.8 for boys, while in the Central African Republic, it is 55.0 years for girls and 50.6 for boys. The developed world is generally aging, with the median age around 40 years. In the developing world, the median age is between 15 and 20 years. While one in five Europeans is 60 years of age or older, only one in twenty Africans is 60 years of age or older. In 2012, the United Nations estimated that there were 316,600 living centenarians (humans of age 100 or older) worldwide.
+                <br />
+                <br />
+            </p>
+            <h1 className="text-center text-lg font-bold pb-[3.5px]">Human life stages</h1>
+            <div className="flex flex-col text-white">
+                <div className="-m-1.5 overflow-x-auto">
+                    <div className="p-1.5 min-w-full inline-block align-middle">
+                        <div className="border overflow-hidden">
+                            <table className="min-w-full divide-y divide-gray-200">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" className="px-6 py-3 text-base font-semibold text-gray-300 border-r">Infant human male or female</th>
+                                        <th scope="col" className="px-6 py-3 text-base font-semibold text-gray-300 border-r">
+                                            Human male or female before puberty (children)
+                                        </th>
+                                        <th scope="col" className="px-6 py-3 text-base font-semibold border-r text-gray-300">
+                                            Adolescent male or female
+                                        </th>
+                                        <th scope="col" className="px-6 border-r py-3 text-base font-semibold text-gray-300">Adult man or woman</th>
+                                        <th scope="col" className="px-6 py-3 text-base font-semibold text-gray-300">Elderly man or woman</th>
+                                    </tr>
+                                </thead>
+                                <tbody className="divide-y divide-gray-200">
+                                    <tr>
+                                        <td className="px-6 py-4 border-r whitespace-nowrap px-auto">
+                                            <ReferencingVisual src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Redheaded_child_mesmerized_2.jpg/150px-Redheaded_child_mesmerized_2.jpg" w={150} h={150} caption={<></>} />
+                                        </td>
+                                        <td className="px-6 py-4 border-r whitespace-nowrap px-auto">
+                                            <ReferencingVisual src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/%D0%A0%D0%BE%D0%BC%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D1%85%D0%BB%D0%BE%D0%BF%D1%87%D0%B8%D0%BA_%28%D0%9C%D1%83%D0%BA%D0%B0%D1%87%D0%B5%D0%B2%D0%BE%29.jpg/150px-%D0%A0%D0%BE%D0%BC%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D1%85%D0%BB%D0%BE%D0%BF%D1%87%D0%B8%D0%BA_%28%D0%9C%D1%83%D0%BA%D0%B0%D1%87%D0%B5%D0%B2%D0%BE%29.jpg" w={600} h={800} caption={<></>} />
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap border-r px-auto">
+                                            <ReferencingVisual src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Boy_in_Dar_es_Salaam_%2814453809622%29.jpg/150px-Boy_in_Dar_es_Salaam_%2814453809622%29.jpg" w={400} h={650} caption={<></>} />
+                                        </td>
+                                        <td className="px-6 py-4 border-r whitespace-nowrap px-auto">
+                                            <ReferencingVisual src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Pataxo001.jpg/150px-Pataxo001.jpg" w={450} h={650} caption={<></>} />
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap px-auto">
+                                            <ReferencingVisual src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/An_old_age.JPG/150px-An_old_age.JPG" w={450} h={650} caption={<></>} />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 border-r whitespace-nowrap px-auto">
+                                            <ReferencingVisual src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Baby_playing_with_yellow_paint._Work_by_Dutch_artist_Peter_Klashorst_entitled_%22Experimental%22.jpg/150px-Baby_playing_with_yellow_paint._Work_by_Dutch_artist_Peter_Klashorst_entitled_%22Experimental%22.jpg" w={150} h={150} caption={<></>} />
+                                        </td>
+                                        <td className="px-6 py-4 border-r whitespace-nowrap px-auto">
+                                            <ReferencingVisual src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Ethnie_dong_6511a.jpg/150px-Ethnie_dong_6511a.jpg" w={600} h={800} caption={<></>} />
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap border-r px-auto">
+                                            <ReferencingVisual src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Portrait_of_a_Persian_lady_in_Iran%2C_10-08-2006_%28cropped%29.jpg/150px-Portrait_of_a_Persian_lady_in_Iran%2C_10-08-2006_%28cropped%29.jpg" w={400} h={650} caption={<></>} />
+                                        </td>
+                                        <td className="px-6 py-4 border-r whitespace-nowrap px-auto">
+                                            <ReferencingVisual src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Punjabi_woman_smile.jpg/150px-Punjabi_woman_smile.jpg" w={450} h={650} caption={<></>} />
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap px-auto">
+                                            <ReferencingVisual src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/HappyPensioneer.jpg/150px-HappyPensioneer.jpg" w={450} h={650} caption={<></>} />
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <br />
+            <h1 className="text-xl font-bold">Diet</h1>
+            <br />
+            <br />
+            <ReferencingVisual src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Preparing_The_Feast.jpg/330px-Preparing_The_Feast.jpg" w={450} h={400} caption={
+                (
+                    <>
+                        Humans living in Bali, Indonesia, preparing a meal
+                    </>
+                )
+            } />
+            <br />
+            <br />
+            <p>
+                <HighLightText text="Humans are omnivorous, capable of consuming a wide variety of plant and animal material" />. Human groups have adopted a range of diets from purely vegan to primarily carnivorous. In some cases, dietary restrictions in humans can lead to deficiency diseases; however, stable human groups have adapted to many dietary patterns through both genetic specialization and cultural conventions to use nutritionally balanced food sources. The human diet is prominently reflected in human culture and has led to the development of food science.
+                <br />
+                <br />
+                Until the development of agriculture, Homo sapiens employed a hunter-gatherer method as their sole means of food collection. This involved combining stationary food sources (such as fruits, grains, tubers, and mushrooms, insect larvae and aquatic mollusks) with wild game, which must be hunted and captured in order to be consumed. It has been proposed that humans have used fire to prepare and cook food since the time of Homo erectus. Human domestication of wild plants began about 11,700 years ago, leading to the development of agriculture, a gradual process called the Neolithic Revolution. These dietary changes may also have altered human biology; the spread of dairy farming provided a new and rich source of food, leading to the evolution of the ability to digest lactose in some adults. The types of food consumed, and how they are prepared, have varied widely by time, location, and culture.
+                <br />
+                <br />
+                In general, humans can survive for up to eight weeks without food, depending on stored body fat. Survival without water is usually limited to three or four days, with a maximum of one week. In 2020 it is estimated 9 million humans die every year from causes directly or indirectly related to starvation. Childhood malnutrition is also common and contributes to the global burden of disease. However, global food distribution is not even, and obesity among some human populations has increased rapidly, leading to health complications and increased mortality in some developed and a few developing countries. Worldwide, over one billion people are obese, while in the United States 35% of people are obese, leading to this being described as an &quot;obesity epidemic.&quot; Obesity is caused by consuming more calories than are expended, so excessive weight gain is usually caused by an energy-dense diet.
+                <br />
+                <br />
+            </p>
+            <h1 className="text-xl font-bold">Biological variation</h1>
+            <br />
+            <br />
+            <ReferencingVisual src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Seti1a.jpg/220px-Seti1a.jpg" w={400} h={350} caption={
+                (
+                    <>
+                        A Libyan (first), a Nubian (second), a Syrian (third), and an Egyptian (fourth), drawing by an unknown artist after a mural of the tomb of <Bold>Seti I</Bold>
+                    </>
+                )
+            } />
+            <br />
+            <br />
+            <p>
+                There is biological variation in the human species – with traits such as <Bold>blood type</Bold>, <Bold>genetic diseases</Bold>, <Bold>cranial features</Bold>, <Bold>facial features</Bold>, <Bold>organ systems</Bold>, <Bold>eye color</Bold>, <Bold>hair color</Bold> and <Bold>texture</Bold>, <Bold>height</Bold> and <Bold>build</Bold>, and <Bold>skin color</Bold> varying across the globe. The typical height of an adult human is between 1.4 and 1.9 m (4 ft 7 in and 6 ft 3 in), although this varies significantly depending on sex, ethnic origin, and family bloodlines. Body size is partly determined by genes and is also significantly influenced by environmental factors such as diet, exercise, and sleep patterns.
+                <br />
+                <br />
+            </p>
+            <ReferencingVisual src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Hair_colors.jpg/220px-Hair_colors.jpg" w={300} h={600} caption={
+                (
+                    <>
+                        A variety of human hair colors; from top left, clockwise: black, brown, blonde, white, red.
+                    </>
+                )
+            } />
+            <br />
+            <br />
+            <p>
+                There is evidence that populations have adapted genetically to various external factors. The genes that allow adult humans to digest lactose are present in high frequencies in populations that have long histories of cattle domestication and are more dependent on cow milk. Sickle cell anemia, which may provide increased resistance to malaria, is frequent in populations where malaria is endemic. Populations that have for a very long time inhabited specific climates tend to have developed specific phenotypes that are beneficial for those environments – short stature and stocky build in cold regions, tall and lanky in hot regions, and with high lung capacities or other adaptations at high altitudes. Some populations have evolved highly unique adaptations to very specific environmental conditions, such as those advantageous to ocean-dwelling lifestyles and freediving in the Bajau.
+                <br />
+                <br />
+                Human hair ranges in color from red to blond to brown to black, which is the most frequent. Hair color depends on the amount of melanin, with concentrations fading with increased age, leading to grey or even white hair. Skin color can range from darkest brown to lightest peach, or even nearly white or colorless in cases of albinism. It tends to vary clinally and generally correlates with the level of ultraviolet radiation in a particular geographic area, with darker skin mostly around the equator. Skin darkening may have evolved as protection against ultraviolet solar radiation. Light skin pigmentation protects against depletion of vitamin D, which requires sunlight to make. Human skin also has a capacity to darken (tan) in response to exposure to ultraviolet radiation.
+                <br />
+                <br />
+                There is relatively little variation between human geographical populations, and most of the variation that occurs is at the individual level. Much of human variation is continuous, often with no clear points of demarcation. Genetic data shows that no matter how population groups are defined, two people from the same population group are almost as different from each other as two people from any two different population groups. Dark-skinned populations that are found in Africa, Australia, and South Asia are not closely related to each other.
+                <br />
+                <br />
+                Genetic research has demonstrated that human populations native to the African continent are the most genetically diverse and genetic diversity decreases with migratory distance from Africa, possibly the result of bottlenecks during human migration. These non-African populations acquired new genetic inputs from local admixture with archaic populations and have much greater variation from Neanderthals and Denisovans than is found in Africa, though Neanderthal admixture into African populations may be underestimated. Furthermore, recent studies have found that populations in sub-Saharan Africa, and particularly West Africa, have ancestral genetic variation which predates modern humans and has been lost in most non-African populations. Some of this ancestry is thought to originate from admixture with an unknown archaic hominin that diverged before the split of Neanderthals and modern humans.
+                <br />
+                <br />
+                Humans are a gonochoric species, meaning they are divided into male and female sexes. The greatest degree of genetic variation exists between males and females. While the nucleotide genetic variation of individuals of the same sex across global populations is no greater than 0.1%–0.5%, the genetic difference between males and females is between 1% and 2%. Males on average are 15% heavier and 15 cm (6 in) taller than females. On average, men have about 40–50% more upper body strength and 20–30% more lower body strength than women at the same weight, due to higher amounts of muscle and larger muscle fibers. Women generally have a higher body fat percentage than men. Women have lighter skin than men of the same population; this has been explained by a higher need for vitamin D in females during pregnancy and lactation. As there are chromosomal differences between females and males, some X and Y chromosome-related conditions and disorders only affect either men or women. After allowing for body weight and volume, the male voice is usually an octave deeper than the female voice. Women have a longer life span in almost every population around the world. There are intersex conditions in the human population, however these are rare.
+            </p>
+            <ParagraphSecondaryHeader id="Psychology">Psychology</ParagraphSecondaryHeader>
+            <ReferencingVisual src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/NIA_human_brain_drawing.jpg/220px-NIA_human_brain_drawing.jpg" w={310} h={410} caption={
+                (
+                    <>
+                        Drawing of the <Link slug="Human_Brain" title="human brain" />, showing several important structures
+                    </>
+                )
+            } />
+            <p id="Psychology">
+                <br />
+                <br />
+                The human brain, the focal point of the central nervous system in humans, controls the peripheral nervous system. In addition to controlling &quot;lower&quot;, involuntary, or primarily autonomic activities such as respiration and digestion, it is also the locus of &quot;higher&quot; order functioning such as thought, reasoning, and abstraction. These cognitive processes constitute the mind, and, along with their behavioral consequences, are studied in the field of psychology.
+                <br />
+                <br />
+                Humans have a larger and more developed prefrontal cortex than other primates, the region of the brain associated with higher cognition. This has led humans to proclaim themselves to be more intelligent than any other known species. Objectively defining intelligence is difficult, with other animals adapting senses and excelling in areas that humans are unable to.
+                <br />
+                <br />
+                There are some traits that, although not strictly unique, do set humans apart from other animals. Humans may be the only animals who have episodic memory and who can engage in &quot;mental time travel&quot;. Even compared with other social animals, humans have an unusually high degree of flexibility in their facial expressions. Humans are the only animals known to cry emotional tears. Humans are one of the few animals able to self-recognize in mirror tests and there is also debate over to what extent humans are the only animals with a theory of mind.
             </p>
             <ParagraphSecondaryHeader id="This_can_be_continued">This can be continued</ParagraphSecondaryHeader>
             <ParagraphSecondaryHeader id="Scientific_classification">Scientific classification</ParagraphSecondaryHeader>

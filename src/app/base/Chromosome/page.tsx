@@ -371,7 +371,7 @@ export default function Chromosome() {
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-center border-r">X (sex chromosme)</td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-center border-r">X (sex chromosome)</td>
                                         <td className="px-6 py-4 whitespace-nowrap text-sm border-r">800</td>
                                         <td className="px-6 py-4 whitespace-nowrap text-sm border-r">154,913,754</td>
                                         <td className="px-6 py-4 whitespace-nowrap text-end text-sm font-medium border-r">
