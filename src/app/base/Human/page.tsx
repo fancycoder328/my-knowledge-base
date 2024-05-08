@@ -10,6 +10,9 @@ import TwoByTwoFormula from "@/components/TwoByTwoFormula";
 import HighLightText from "@/components/HighLightText";
 import OnboardingCitation from "@/components/OnboardingCitation";
 import TwoMainArticles from "@/components/TwoMainArticles";
+import TransparentReferencingVisual from "@/components/TransparentReferencingVisual";
+import SubTitle from "@/components/SubTitle";
+import { Refractor } from "three/examples/jsm/Addons.js";
 
 export default function Human() {
 
@@ -681,7 +684,81 @@ export default function Human() {
                 <br />
                 Philosophy is a field of study where humans seek to understand fundamental truths about themselves and the world in which they live. Philosophical inquiry has been a major feature in the development of humans&apos; intellectual history. It has been described as the &quot;no man&apos;s land&quot; between definitive scientific knowledge and dogmatic religious teachings. Philosophy relies on reason and evidence, unlike religion, but does not require the empirical observations and experiments provided by science. Major fields of philosophy include metaphysics, epistemology, logic, and axiology (which includes ethics and aesthetics).
             </p>
-            <ParagraphSecondaryHeader id="This_can_be_continued">This can be continued</ParagraphSecondaryHeader>
+            <ParagraphSecondaryHeader id="Society">Society</ParagraphSecondaryHeader>
+            <span id="Society"></span>
+            <ReferencingVisual src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Indian_family_in_Brazil_posed_in_front_of_hut.jpg/170px-Indian_family_in_Brazil_posed_in_front_of_hut.jpg" w={200} h={350} caption={
+                (
+                    <>
+                        Humans often live in family-based social structures
+                    </>
+                )
+            } />
+            <br />
+            <br />
+            <p>
+                Society is the system of organizations and institutions arising from interaction between humans. Humans are highly social and tend to live in large complex social groups. They can be divided into different groups according to their income, wealth, power, reputation and other factors. The structure of social stratification and the degree of social mobility differs, especially between modern and traditional societies. Human groups range from the size of families to nations. The first form of human social organization is thought to have resembled hunter-gatherer band societies.
+                <br />
+                <br />
+            </p>
+            <h1 className="text-xl font-bold">Gender</h1>
+            <br />
+            <TransparentReferencingVisual className="bg-white" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Human.svg/170px-Human.svg.png" w={150} h={250} caption={
+                (
+                    <>
+                        Depiction of a man and a woman from the Pioneer plaque
+                    </>
+                )
+            } />
+            <br />
+            <br />
+            <p>
+                Human societies typically exhibit gender identities and gender roles that distinguish between masculine and feminine characteristics and prescribe the range of acceptable behaviors and attitudes for their members based on their sex. The most common categorization is a gender binary of men and women. Some societies recognize a third gender, or less commonly a fourth or fifth. In some other societies, non-binary is used as an umbrella term for a range of gender identities that are not solely male or female.
+                <br />
+                <br />
+                Gender roles are often associated with a division of norms, practices, dress, behavior, rights, duties, privileges, status, and power, with men enjoying more rights and privileges than women in most societies, both today and in the past. As a social construct, gender roles are not fixed and vary historically within a society. Challenges to predominant gender norms have recurred in many societies. Little is known about gender roles in the earliest human societies. Early modern humans probably had a range of gender roles similar to that of modern cultures from at least the Upper Paleolithic, while the Neanderthals were less sexually dimorphic and there is evidence that the behavioral difference between males and females was minimal.
+                <br />
+                <br />
+            </p>
+            <SubTitle>Kinship</SubTitle>
+            <p>
+                All human societies organize, recognize and classify types of social relationships based on relations between parents, children and other descendants (consanguinity), and relations through marriage (affinity). There is also a third type applied to godparents or adoptive children (fictive). These culturally defined relationships are referred to as kinship. In many societies, it is one of the most important social organizing principles and plays a role in transmitting status and inheritance. All societies have rules of incest taboo, according to which marriage between certain kinds of kin relations is prohibited, and some also have rules of preferential marriage with certain kin relations.
+            </p>
+            <br />
+            <br />
+            <SubTitle>Ethnicity</SubTitle>
+            <p>
+                Human ethnic groups are a social category that identifies together as a group based on shared attributes that distinguish them from other groups. These can be a common set of traditions, ancestry, language, history, society, culture, nation, religion, or social treatment within their residing area. Ethnicity is separate from the concept of race, which is based on physical characteristics, although both are socially constructed. Assigning ethnicity to a certain population is complicated, as even within common ethnic designations there can be a diverse range of subgroups, and the makeup of these ethnic groups can change over time at both the collective and individual level. Also, there is no generally accepted definition of what constitutes an ethnic group. Ethnic groupings can play a powerful role in the social identity and solidarity of ethnopolitical units. This has been closely tied to the rise of the nation state as the predominant form of political organization in the 19th and 20th centuries.
+            </p>
+            <br />
+            <br />
+            <SubTitle>Conflict</SubTitle>
+            <ReferencingVisual src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Into_the_Jaws_of_Death_23-0455M_edit.jpg/220px-Into_the_Jaws_of_Death_23-0455M_edit.jpg" w={350} h={380} caption={
+                (
+                    <>
+                        American troops landing at Normandy, WWII.
+                    </>
+                )
+            } />
+            <br />
+            <br />
+            <p>
+                Humans commit violence on other humans at a rate comparable to other primates, but have an increased preference for killing adults, infanticide<OnboardingCitation citeNoteNumber={6} content={
+                    (
+                        <>
+                            In <Link slug="Animal" title="animals" />, <Bold>infanticide</Bold> involves the intentional killing of young offspring by a mature animal of the same species. Animal infanticide is studied in zoology, specifically in the field of ethology. <Bold>Ovicide</Bold> is the analogous destruction of eggs.
+                        </>
+                    )
+                } /> being more common among other primates. Phylogenetic analysis predicts that 2% of early <i>H. sapiens</i> would be murdered<OnboardingCitation citeNoteNumber={7} content={
+                    (
+                        <>
+                            <Bold>Murder</Bold> is the unlawful killing of another human without justification or valid excuse committed with the necessary intention as defined by the law in a specific jurisdiction. This state of mind may, depending upon the jurisdiction, distinguish murder from other forms of unlawful homicide, such as manslaughter.
+                        </>
+                    )
+                } />, rising to 12% during the medieval period, before dropping to below 2% in modern times. There is great variation in violence between human populations, with rates of homicide about 0.01% in societies that have legal systems and strong cultural attitudes against violence.
+                <br />
+                <br />
+                The willingness of humans to kill other members of their species en masse through organized conflict (i.e., war) has long been the subject of debate. One school of thought holds that war evolved as a means to eliminate competitors, and has always been an innate human characteristic. Another suggests that war is a relatively recent phenomenon and has appeared due to changing social conditions. While not settled, current evidence indicates warlike predispositions only became common about 10,000 years ago, and in many places much more recently than that. War has had a high cost on human life; it is estimated that during the 20th century, between 167 million and 188 million people died as a result of war. War casualty data is less reliable for pre-medieval times, especially global figures. But compared with any period over the past 600 years, the last ~80 years (post 1946), has seen a very significant drop in global military and civilian death rates due to armed conflict.
+            </p>
             <ParagraphSecondaryHeader id="Scientific_classification">Scientific classification</ParagraphSecondaryHeader>
             <p id="Scientific_classification">
                 <Bold>Domain</Bold>: <Link slug="Eukaryote" title="Eukaryota" />;<br /><Bold>Kingdom</Bold>: <Bold>Animalia</Bold>;<br /><Bold>Phylum</Bold>: <Bold>Chordata</Bold>;<br /><Bold>Class</Bold>: <Bold>Mammalia</Bold>;<br /><Bold>Order</Bold>: <Link slug="Primate" title="Primates" />;<br /><Bold>Suborder</Bold>: <Bold>Haplorhini</Bold>;<br /><Bold>Infraorder</Bold>: <Bold>Simiiformes</Bold>;<br /><Bold>Family</Bold>: <Link slug="Hominidae" title="Hominidae" />;<br /><Bold>Subfamily</Bold>: <Bold>Homininae</Bold>;<br /><Bold>Tribe</Bold>: <Bold>Hominini</Bold>;<br /><Bold>Genus</Bold>: <Link slug="Homo" title="Homo" />;<br /><Bold>Species</Bold>: <Bold>Homo Sapiens</Bold>;<br /><Bold>Binomial name</Bold>: <Bold>Homo sapiens</Bold>;
