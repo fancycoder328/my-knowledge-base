@@ -8,6 +8,8 @@ import Divider from "@/components/Divider";
 import MainArticle from "@/components/MainArticle";
 import TwoByTwoFormula from "@/components/TwoByTwoFormula";
 import HighLightText from "@/components/HighLightText";
+import OnboardingCitation from "@/components/OnboardingCitation";
+import TwoMainArticles from "@/components/TwoMainArticles";
 
 export default function Human() {
 
@@ -445,6 +447,193 @@ export default function Human() {
                 <br />
                 <br />
                 There are some traits that, although not strictly unique, do set humans apart from other animals. Humans may be the only animals who have episodic memory and who can engage in &quot;mental time travel&quot;. Even compared with other social animals, humans have an unusually high degree of flexibility in their facial expressions. Humans are the only animals known to cry emotional tears. Humans are one of the few animals able to self-recognize in mirror tests and there is also debate over to what extent humans are the only animals with a theory of mind.
+            </p>
+            <br />
+            <h1 className="text-xl font-bold">Sleeping and dream</h1>
+            <br />
+            <p>
+                Humans are generally diurnal.<OnboardingCitation citeNoteNumber={1} content={
+                    (
+                        <>
+                            <Bold>Diurnality</Bold> is a form of plant and animal behavior characterized by activity during daytime, with a period of sleeping or other inactivity at night.
+                        </>
+                    )
+                } /> <HighLightText text="The average sleep requirement is between seven and nine hours per day for an adult and nine to ten hours per day for a child; elderly people usually sleep for six to seven hours. Having less sleep than this is common among humans, even though sleep deprivation can have negative health effects" />. A sustained restriction of adult sleep to four hours per day has been shown to correlate with changes in <Bold>physiology</Bold> and <Bold>mental state</Bold>, including <Bold>reduced memory</Bold>, <Bold>fatigue</Bold>, <Bold>aggression</Bold>, and <Bold>bodily discomfort</Bold>.
+                <br />
+                <br />
+                During sleep humans <Bold>dream</Bold>, <HighLightText text="where they experience sensory images and sounds" />. Dreaming is stimulated by the <Redirect href="/base/Brainstem#Pons" text="pons" /> and mostly occurs during the REM phase of sleep.<OnboardingCitation citeNoteNumber={2} content={
+                    (
+                        <>
+                            <Bold>Rapid eye movement</Bold> (<Bold>REM</Bold>) sleep is a phase of sleep in which people <Bold>dream</Bold>, <Bold>nightmares occur</Bold>, and <Bold>penile</Bold> or <Bold>clitoral tumescence occurs</Bold>. It&apos;s characterized by <Bold>rapid eye movement</Bold>, <Bold>low muscle tone</Bold>, and <Bold>vivid dreaming</Bold>. <HighLightText text="During REM sleep, a person&apos;s brain activity, breathing, heart rate, and blood pressure increases" />. The muscles in the arms and legs become temporarily unable to move, except for the eyes and diaphragmatic muscles, which remain active.
+                        </>
+                    )
+                } /> The length of a dream can vary, from a few seconds up to 30 minutes. Humans have <HighLightText text="three to five dreams per night, and some may have up to seven" />. Dreamers are more likely to remember the dream if awakened during the REM phase. The events in dreams are generally outside the control of the dreamer, with the exception of lucid dreaming, where the dreamer is self-aware. Dreams can at times make a creative thought occur or give a sense of inspiration.
+                <br />
+                <br />
+            </p>
+            <h1 className="text-xl font-bold">Consciousness and thought
+            </h1>
+            <TwoMainArticles firstArticleSlug="Consciousness" firstArticleName="Consciousness" secondArticleSlug="Cognition" secondArticleName="Cognition" /
+            >
+            <p>
+                Human consciousness, at its simplest, is sentience or awareness of internal or external existence. Despite centuries of analyses, definitions, explanations and debates by philosophers and scientists, consciousness remains puzzling and controversial, being &quot;at once the most familiar and most mysterious aspect of our lives&quot;. The only widely agreed notion about the topic is the intuition that it exists. Opinions differ about what exactly needs to be studied and explained as consciousness. Some philosophers divide consciousness into phenomenal consciousness, which is sensory experience itself, and access consciousness, which can be used for reasoning or directly controlling actions. It is sometimes synonymous with &apos;the mind&apos;, and at other times, an aspect of it. Historically it is associated with introspection, private thought, imagination and volition. It now often includes some kind of experience, cognition, feeling or perception. It may be &apos;awareness&apos;, or &apos;awareness of awareness&apos;, or self-awareness. There might be different levels or orders of consciousness, or different kinds of consciousness, or just one kind with different features.
+                <br />
+                <br />
+                The process of acquiring knowledge and understanding through thought, experience, and the senses is known as cognition. The human brain perceives the external world through the senses, and each individual human is influenced greatly by his or her experiences, leading to subjective views of existence and the passage of time. The nature of thought is central to psychology and related fields. Cognitive psychology studies cognition, the mental processes underlying behavior. Largely focusing on the development of the human mind through the life span, developmental psychology seeks to understand how people come to perceive, understand, and act within the world and how these processes change as they age. This may focus on intellectual, cognitive, neural, social, or moral development. Psychologists have developed intelligence tests and the concept of intelligence quotient in order to assess the relative intelligence of human beings and study its distribution among population.
+                <br />
+                <br />
+            </p>
+            <h1 className="text-xl font-bold">Motivation and emotion
+            </h1>
+            <br />
+            <ReferencingVisual src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Plate_depicting_emotions_of_grief_from_Charles_Darwin%27s_book_The_Expression_of_the_Emotions.jpg/220px-Plate_depicting_emotions_of_grief_from_Charles_Darwin%27s_book_The_Expression_of_the_Emotions.jpg" w={350} h={400} caption={
+                (
+                    <>
+                        Illustration of grief from Charles Darwin&apos;s 1872 book <i>The Expression of the Emotions in Man and Animals</i>
+                    </>
+                )
+            } />
+            <br />
+            <br />
+            <p>
+                Human motivation is not yet wholly understood. From a psychological perspective, Maslow&apos;s hierarchy of needs is a well-established theory that can be defined as the process of satisfying certain needs in ascending order of complexity. From a more general, philosophical perspective, human motivation can be defined as a commitment to, or withdrawal from, various goals requiring the application of human ability. Furthermore, incentive and preference are both factors, as are any perceived links between incentives and preferences. Volition may also be involved, in which case willpower is also a factor. Ideally, both motivation and volition ensure the selection, striving for, and realization of goals in an optimal manner, a function beginning in childhood and continuing throughout a lifetime in a process known as socialization.
+                <br />
+                <br />
+                Emotions are biological states associated with the nervous system brought on by neurophysiological changes variously associated with thoughts, feelings, behavioral responses, and a degree of pleasure or displeasure. They are often intertwined with mood, temperament, personality, disposition, creativity, and motivation. Emotion has a significant influence on human behavior and their ability to learn. Acting on extreme or uncontrolled emotions can lead to social disorder and crime, with studies showing criminals may have a lower emotional intelligence than normal.
+                <br />
+                <br />
+                Emotional experiences perceived as pleasant, such as joy, interest or contentment, contrast with those perceived as unpleasant, like anxiety, sadness, anger, and despair. Happiness, or the state of being happy, is a human emotional condition. The definition of happiness is a common philosophical topic. Some define it as experiencing the feeling of positive emotional affects, while avoiding the negative ones. Others see it as an appraisal of life satisfaction or quality of life. Recent research suggests that being happy might involve experiencing some negative emotions when humans feel they are warranted.
+                <br />
+                <br />
+            </p>
+            <h1 className="text-xl font-bold">Sexuality and love</h1>
+            <br />
+            <ReferencingVisual src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Sweet_Baby_Kisses_Family_Love.jpg/220px-Sweet_Baby_Kisses_Family_Love.jpg" w={300} h={400} caption={
+                (
+                    <>
+                        Human parents often display familial love for their offsprings.
+                    </>
+                )
+            } />
+            <br />
+            <br />
+            <p>
+                For humans, sexuality involves biological, erotic, physical, emotional, social, or spiritual feelings and behaviors. Because it is a broad term, which has varied with historical contexts over time, it lacks a precise definition. The biological and physical aspects of sexuality largely concern the human reproductive functions, including the human sexual response cycle. Sexuality also affects and is affected by cultural, political, legal, philosophical, moral, ethical, and religious aspects of life. Sexual desire, or <i>libido</i>, is a basic mental state present at the beginning of sexual behavior. Studies show that men desire sex more than women and masturbate more often.
+                <br />
+                <br />
+                Humans can fall anywhere along a continuous scale of sexual orientation, although most humans are heterosexual.<OnboardingCitation citeNoteNumber={3} content={
+                    (
+                        <>
+                            <Bold>Heterosexuality</Bold> is romantic attraction, sexual attraction or sexual behavior between people of the opposite sex or gender. As a sexual orientation, heterosexuality is &quot;an enduring pattern of emotional, romantic, and/or sexual attractions&quot; to people of the opposite sex.
+                        </>
+                    )
+                } /> While homosexual<OnboardingCitation citeNoteNumber={4} content={
+                    (
+                        <>
+                            <Bold>Homosexuality</Bold> is a sexual attraction, romantic attraction, or sexual behavior between members of the same sex or gender. As a sexual orientation, homosexuality is &quot;an enduring pattern of emotional, romantic, and/or sexual attractions&quot; exclusively to people of the same sex or gender.
+                        </>
+                    )
+                } /> behavior occurs in some other animals, only humans and domestic sheep have so far been found to exhibit exclusive preference for same-sex relationships. Most evidence supports nonsocial, biological causes of sexual orientation, as cultures that are very tolerant of homosexuality do not have significantly higher rates of it. Research in neuroscience and genetics suggests that other aspects of human sexuality are biologically influenced as well.
+                <br />
+                <br />
+                Love most commonly refers to a feeling of strong attraction or emotional attachment. It can be impersonal (the love of an object, ideal, or strong political or spiritual connection) or interpersonal (love between humans). When in love dopamine, norepinephrine, serotonin and other chemicals stimulate the brain&apos;s pleasure center, leading to side effects such as increased heart rate, loss of appetite and sleep, and an intense feeling of excitement.
+            </p>
+            <ParagraphSecondaryHeader id="Culture">Culture</ParagraphSecondaryHeader>
+            <div className="p-2 border rounded-2xl border-white/[0.3]">
+                <h1 className="text-lg font-bold text-center">Human society statistics</h1>
+                <br />
+                <div className="flex gap-4 justify-between">
+                    <div>
+                        <strong>Most widely spoken languages</strong>
+                    </div>
+                    <div className="w-20"></div>
+                    <div>
+                        English, Mandarin Chinese, Hindi, Spanish, Standard Arabic, Bengali, French, Russian, Portuguese, Urdu
+                    </div>
+                </div>
+                <br />
+                <div className="flex gap-4 justify-between">
+                    <div>
+                        <strong>Most practiced religions</strong>
+                    </div>
+                    <div className="w-20"></div>
+                    <div>
+                        Christianity, Islam, Hinduism, Buddhism, folk religions, Sikhism, Judaism, unaffiliated
+                    </div>
+                </div>
+            </div>
+            <br />
+            <p id="Culture">
+                Humanity&apos;s unprecedented set of intellectual skills were a key factor in the species&apos; eventual technological advancement and concomitant domination of the biosphere. Disregarding extinct hominids, humans are the only animals known to teach generalizable information, innately deploy recursive embedding to generate and communicate complex concepts, engage in the &quot;folk physics&quot; required for competent tool design, or cook food in the wild. Teaching and learning preserves the cultural and ethnographic identity of human societies. Other traits and behaviors that are mostly unique to humans include starting fires, phoneme structuring and vocal learning.
+                <br />
+                <br />
+            </p>
+            <h1 className="text-xl font-bold">Language</h1>
+            <MainArticle slug="Language" title="Language" />
+            <ReferencingVisual src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Primary_Human_Languages_Improved_Version.png/330px-Primary_Human_Languages_Improved_Version.png" w={550} h={500} caption={
+                (
+                    <>
+                        Principal language families of the world (and in some cases geographic groups of families).
+                    </>
+                )
+            } />
+            <br />
+            <p>
+                While many species communicate, <Link slug="Language" title="language" /> is unique to humans, a defining feature of humanity, and a cultural universal. Unlike the limited systems of other animals, human language is open – an infinite number of meanings can be produced by combining a limited number of symbols. Human language also has the capacity of displacement, using words to represent things and happenings that are not presently or locally occurring but reside in the shared imagination of interlocutors.
+                <br />
+                <br />
+                Language differs from other forms of communication in that it is modality independent; the same meanings can be conveyed through different media, audibly in speech, visually by sign language or writing, and through tactile media such as braille. Language is central to the communication between humans, and to the sense of identity that unites nations, cultures and ethnic groups. There are approximately six thousand different languages currently in use, including sign languages, and many thousands more that are extinct.
+                <br />
+                <br />
+            </p>
+            <h1 className="text-xl font-bold">The arts</h1>
+            <br />
+            <p>
+                Human arts can take many forms including visual, literary, and performing. Visual art can range from paintings and sculptures to film, fashion design, and architecture. Literary arts can include prose, poetry, and dramas. The performing arts generally involve theatre, music, and dance. Humans often combine the different forms (for example, music videos). Other entities that have been described as having artistic qualities include food preparation, video games, and medicine. As well as providing entertainment and transferring knowledge, the arts are also used for political purposes.
+                <br />
+                <br />
+            </p>
+            <ReferencingVisual src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/British_Museum_Flood_Tablet.jpg/170px-British_Museum_Flood_Tablet.jpg" w={250} h={300} caption={
+                (
+                    <>
+                        The Deluge tablet of the <i>Gilgamesh</i> epic in Akkadian
+                    </>
+                )
+            } />
+            <br />
+            <br />
+            <p>
+                Art is a defining characteristic of humans and there is evidence for a relationship between creativity and language. The earliest evidence of art was shell engravings made by <i>Homo erectus</i> 300,000 years before modern humans evolved. Art attributed to <i>H. sapiens</i> existed at least 75,000 years ago, with jewellery and drawings found in caves in South Africa. There are various hypotheses as to why humans have adapted to the arts. These include allowing them to better problem solve issues, providing a means to control or influence other humans, encouraging cooperation and contribution within a society or increasing the chance of attracting a potential mate. The use of imagination developed through art, combined with logic may have given early humans an evolutionary advantage.
+                <br />
+                <br />
+                Evidence of humans engaging in musical activities predates cave art and so far music has been practiced by virtually all known human cultures. There exists a wide variety of music genres and ethnic musics; with humans&apos; musical abilities being related to other abilities, including complex social human behaviors. It has been shown that human brains respond to music by becoming synchronized with the rhythm and beat, a process called entrainment. Dance is also a form of human expression found in all cultures and may have evolved as a way to help early humans communicate. Listening to music and observing dance stimulates the orbitofrontal cortex and other pleasure sensing areas of the brain.
+                <br />
+                <br />
+                Unlike speaking, reading and writing does not come naturally to humans and must be taught. Still, literature has been present before the invention of words and language, with 30,000-year-old paintings on walls inside some caves portraying a series of dramatic scenes. One of the oldest surviving works of literature is the <i>Epic of Gilgamesh</i>, first engraved on ancient Babylonian tablets about 4,000 years ago. Beyond simply passing down knowledge, the use and sharing of imaginative fiction through stories might have helped develop humans&apos; capabilities for communication and increased the likelihood of securing a mate. Storytelling may also be used as a way to provide the audience with moral lessons and encourage cooperation.
+                <br />
+                <br />
+            </p>
+            <h1 className="text-xl font-bold">Tools and technologies</h1>
+            <MainArticle slug="Technology" title="Technology" />
+            <ReferencingVisual src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/JR-Maglev-MLX01-2.jpg/220px-JR-Maglev-MLX01-2.jpg" w={250} h={230} caption={
+                (
+                    <>
+                        The SCMaglev, the fastest train in the world clocking in at 603 km/h (375 mph) as of 2015
+                    </>
+                )
+            } />
+            <br />
+            <p>
+                Stone tools were used by proto-humans at least 2.5 million years ago. The use and manufacture of tools has been put forward as the ability that defines humans more than anything else and has historically been seen as an important evolutionary step. The technology became much more sophisticated about 1.8 million years ago, with the controlled use of fire beginning around 1 million years ago. The wheel and wheeled vehicles appeared simultaneously in several regions some time in the fourth millennium BC.<OnboardingCitation citeNoteNumber={5} content={
+                    (
+                        <>
+                            The <Bold>fourth millennium BC</Bold> (<Bold>Before Christ</Bold>) or <Bold>4th millennium BC</Bold> spanned the years <Bold>4000 BC to 3001 BC</Bold>.
+                        </>
+                    )
+                } /> The development of more complex tools and technologies allowed land to be cultivated and animals to be domesticated, thus proving essential in the development of agriculture – what is known as the Neolithic Revolution.
+                <br />
+                <br />
+                China developed paper, the printing press, gunpowder, the compass and other important inventions. The continued improvements in smelting allowed forging of copper, bronze, iron and eventually steel, which is used in railways, skyscrapers and many other products. This coincided with the Industrial Revolution, where the invention of automated machines brought major changes to humans&apos; lifestyles. Modern technology is observed as progressing exponentially, with major innovations in the 20th century including: electricity, penicillin, semiconductors, internal combustion engines, the Internet, nitrogen fixing fertilisers, airplanes, computers, automobiles, contraceptive pills, nuclear fission, the green revolution, radio, scientific plant breeding, rockets, air conditioning, television and the assembly line.
             </p>
             <ParagraphSecondaryHeader id="This_can_be_continued">This can be continued</ParagraphSecondaryHeader>
             <ParagraphSecondaryHeader id="Scientific_classification">Scientific classification</ParagraphSecondaryHeader>
