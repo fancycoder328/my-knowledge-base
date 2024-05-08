@@ -6,6 +6,8 @@ import ReferencingVisual from "@/components/ReferencingVisual";
 import TransparentReferencingVisual from "@/components/TransparentReferencingVisual";
 import ReferencingVisualCaption from "@/components/ReferencingVisualCaption";
 import HighLightText from "@/components/HighLightText";
+import SubTitle from "@/components/SubTitle";
+import Redirect from "@/components/Redirect";
 
 export default function Chromosome() {
     const content = (
@@ -861,7 +863,355 @@ export default function Chromosome() {
             <p>
                 Exposure of males to certain lifestyle, environmental and/or occupational hazards may increase the risk of aneuploid spermatozoa. In particular, risk of aneuploidy is increased by tobacco smoking, and occupational exposure to benzene, insecticides, and perfluorinated compounds. Increased aneuploidy is often associated with increased DNA damage in spermatozoa.
             </p>
-            <ParagraphSecondaryHeader id="This_can_be_continued">[This can be continued]</ParagraphSecondaryHeader>
+            <ParagraphSecondaryHeader id="Number_in_various_organisms">Number in various organisms</ParagraphSecondaryHeader>
+            <span id="Number_in_various_organisms" />
+            <SubTitle>In eukaryotes</SubTitle>
+            <p>
+                The number of chromosomes in eukaryotes is highly variable (see table). In fact, chromosomes can fuse or break and thus evolve into novel karyotypes. Chromosomes can also be fused artificially. For example, the 16 chromosomes of yeast have been fused into one giant chromosome and the cells were still viable with only somewhat reduced growth rates.
+                <br />
+                <br />
+                The tables below give the total number of chromosomes (including sex chromosomes) in a cell nucleus. For example, most eukaryotes are diploid, like <Redirect href="/base/Human#Biology" text="humans" /> who have 22 different types of autosomes, each present as two homologous pairs, and two sex chromosomes. This gives 46 chromosomes in total. Other organisms have more than two copies of their chromosome types, such as bread wheat, which is <i>hexaploid</i> and has six copies of seven different chromosome types – 42 chromosomes in total.
+                <br />
+                <br />
+            </p>
+            <h1 className="text-lg pb-2 text-center">Chromosome numbers in some plants</h1>
+            <div className="flex flex-col text-white">
+                <div className="-m-1.5 overflow-x-auto">
+                    <div className="p-1.5 min-w-full inline-block align-middle">
+                        <div className="border overflow-hidden">
+                            <table className="min-w-full divide-y divide-gray-200">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" className="px-6 py-3 text-base font-medium text-gray-300 border-r text-left">Plant species</th>
+                                        <th scope="col" className="px-6 py-3 text-base font-medium text-gray-300 text-left">
+                                            Number of Chromsomes
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody className="divide-y divide-gray-200">
+                                    <tr>
+                                        <td className="px-6 py-4 border-r whitespace-nowrap text-sm font-medium">
+                                            <i>Arabidopsis thaliana</i> (diploid)
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">10</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm border-r font-medium">
+                                            Rye (diploid)
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">14</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium border-r">
+                                            Einkorn wheat (diploid)
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">14</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium border-r">
+                                            Maize (diploid or palaeotetraploid)
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">20</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium border-r">
+                                            Durum wheat (tetraploid)
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">28</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium border-r">
+                                            Bread wheat (hexaploid)
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">42</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium border-r">
+                                            Cultivated tobacco (tetraploid)
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">48</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium border-r">
+                                            Adder&apos;s tongue fern (polyploid)
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">approx. 1,200</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <br />
+            <h1 className="text-lg pb-2 text-center">Chromosome numbers (2n) in some animals</h1>
+            <div className="flex flex-col text-white">
+                <div className="-m-1.5 overflow-x-auto">
+                    <div className="p-1.5 min-w-full inline-block align-middle">
+                        <div className="border overflow-hidden">
+                            <table className="min-w-full divide-y divide-gray-200">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" className="px-6 py-3 text-base font-medium text-gray-300 border-r text-left">Species</th>
+                                        <th scope="col" className="px-6 py-3 text-base font-medium text-gray-300 text-left">
+                                            Number of Chromsomes
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody className="divide-y divide-gray-200">
+                                    <tr>
+                                        <td className="px-6 py-4 border-r whitespace-nowrap text-sm font-medium">
+                                            Indian muntjac
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">7</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm border-r font-medium">
+                                            Common fruit fly
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">8</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium border-r">
+                                            Pill millipede (<i>Arthrosphaera fumosa</i>)
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">30</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium border-r">
+                                            Earthworm (<i>Octodrilus complanatus</i>)
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">36</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium border-r">
+                                            Tibetan fox
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">36</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium border-r">
+                                            Domestic cat
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">38</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium border-r">
+                                            Domestic pig
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">38</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium border-r">
+                                            Laboratory mouse
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">42</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium border-r">
+                                            Rabbit (<i>Oryctolagus cuniculus</i>)
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">44</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium border-r">
+                                            Syrian hamster
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">44</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium border-r">
+                                            Guppy (<i>poecilia reticulata</i>)
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">46</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium border-r">
+                                            Human
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">46</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium border-r">
+                                            Hares
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">48</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium border-r">
+                                            Gorillas
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">48</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium border-r">
+                                            Chimpanzees
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">48</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium border-r">
+                                            Domestic sheep
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">54</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium border-r">
+                                            Garden snail
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">54</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium border-r">
+                                            Silkworm
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">56</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium border-r">
+                                            Elephant
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">56</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium border-r">
+                                            Cow
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">60</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium border-r">
+                                            Donkey
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">62</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium border-r">
+                                            Guinea pig
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">64</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium border-r">
+                                            Horse
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">64</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium border-r">
+                                            Dog
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">78</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium border-r">
+                                            Hedgehog
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">90</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium border-r">
+                                            Goldfish
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">100–104</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium border-r">
+                                            Kingfisher
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">132</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <br />
+            <h1 className="text-lg pb-2 text-center">Chromosome numbers in other organisms</h1>
+            <div className="flex flex-col text-white">
+                <div className="-m-1.5 overflow-x-auto">
+                    <div className="p-1.5 min-w-full inline-block align-middle">
+                        <div className="border overflow-hidden">
+                            <table className="min-w-full divide-y divide-gray-200">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" className="px-6 py-3 text-base font-medium text-gray-300 border-r text-left">Species</th>
+                                        <th scope="col" className="px-6 py-3 text-base font-medium text-gray-300 text-left border-r">
+                                            Large chromsomes
+                                        </th>
+                                        <th scope="col" className="px-6 py-3 text-base font-medium text-gray-300 text-left border-r">
+                                            Intermediate chromsomes
+                                        </th>
+                                        <th scope="col" className="px-6 py-3 text-base font-medium text-gray-300 text-left">
+                                            Microchromsomes
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody className="divide-y divide-gray-200">
+                                    <tr>
+                                        <td className="px-6 py-4 border-r whitespace-nowrap text-sm font-medium">
+                                            <i>Trypanosoma brucei</i>
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm border-r">11</td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm border-r">6</td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">≈100</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm border-r font-medium">
+                                            Domestic pigeon (<i>Columbalivia domestica</i>)
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm border-r">18</td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm border-r">–</td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">59–63</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium border-r">
+                                            Chicken
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm border-r">8</td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm border-r">2 sex chromosomes</td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">60</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <br />
+            <p>
+                Normal members of a particular eukaryotic species all have the same number of nuclear chromosomes (see the table). Other eukaryotic chromosomes, i.e., mitochondrial and plasmid-like small chromosomes, are much more variable in number, and there may be thousands of copies per cell.
+            </p>
+            <br />
+            <br />
+            <ReferencingVisual src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/PLoSBiol3.5.Fig1bNucleus46Chromosomes.jpg/200px-PLoSBiol3.5.Fig1bNucleus46Chromosomes.jpg" w={250} h={450} caption={
+                (
+                    <>
+                        The 23 human chromosome territories during prometaphase in fibroblast cells
+                    </>
+                )
+            } />
+            <br />
+            <br />
+            <p>
+                Asexually reproducing species have one set of chromosomes that are the same in all body cells. However, asexual species can be either haploid or diploid.
+                <br />
+                <br />
+                Sexually reproducing species have somatic cells (body cells), which are diploid [2n] having two sets of chromosomes (23 pairs in humans), one set from the mother and one from the father. Gametes, reproductive cells, are haploid [n]: They have one set of chromosomes. Gametes are produced by meiosis of a diploid germline cell. During meiosis, the matching chromosomes of father and mother can exchange small parts of themselves (crossover), and thus create new chromosomes that are not inherited solely from either parent. When a male and a female gamete merge (fertilization), a new diploid organism is formed.
+                <br />
+                <br />
+                Some animal and plant species are polyploid [Xn]: They have more than two sets of homologous chromosomes. Plants important in agriculture such as tobacco or wheat are often polyploid, compared to their ancestral species. Wheat has a haploid number of seven chromosomes, still seen in some cultivars as well as the wild progenitors. The more-common pasta and bread wheat types are polyploid, having 28 (tetraploid) and 42 (hexaploid) chromosomes, compared to the 14 (diploid) chromosomes in the wild wheat.
+            </p>
+            <br />
+            <br />
+            <SubTitle>In prokaryotes</SubTitle>
+            <p>
+                Prokaryote species generally have one copy of each major chromosome, but most cells can easily survive with multiple copies. For example, <i>Buchnera</i>, a symbiont of aphids has multiple copies of its chromosome, ranging from 10–400 copies per cell. However, in some large bacteria, such as <i>Epulopiscium fishelsoni</i> up to 100,000 copies of the chromosome can be present. Plasmids and plasmid-like small chromosomes are, as in eukaryotes, highly variable in copy number. The number of plasmids in the cell is almost entirely determined by the rate of division of the plasmid – fast division causes high copy number.
+            </p>
         </>
     );
     return (
