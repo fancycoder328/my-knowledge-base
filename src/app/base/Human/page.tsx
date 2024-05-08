@@ -633,7 +633,53 @@ export default function Human() {
                 } /> The development of more complex tools and technologies allowed land to be cultivated and animals to be domesticated, thus proving essential in the development of agriculture – what is known as the Neolithic Revolution.
                 <br />
                 <br />
-                China developed paper, the printing press, gunpowder, the compass and other important inventions. The continued improvements in smelting allowed forging of copper, bronze, iron and eventually steel, which is used in railways, skyscrapers and many other products. This coincided with the Industrial Revolution, where the invention of automated machines brought major changes to humans&apos; lifestyles. Modern technology is observed as progressing exponentially, with major innovations in the 20th century including: electricity, penicillin, semiconductors, internal combustion engines, the Internet, nitrogen fixing fertilisers, airplanes, computers, automobiles, contraceptive pills, nuclear fission, the green revolution, radio, scientific plant breeding, rockets, air conditioning, television and the assembly line.
+                China developed paper, the printing press, gunpowder, the compass and other important inventions. The continued improvements in smelting allowed forging of copper, bronze, iron and eventually steel, which is used in railways, skyscrapers and many other products. This coincided with the Industrial Revolution, where the invention of automated machines brought major changes to humans&apos; lifestyles. Modern technology is observed as progressing exponentially, with major innovations in the 20th century including: electricity, penicillin, semiconductors, internal combustion engines, the Internet, nitrogen fixing fertilizers, airplanes, computers, automobiles, contraceptive pills, nuclear fission, the green revolution, radio, scientific plant breeding, rockets, air conditioning, television and the assembly line.
+                <br />
+                <br />
+            </p>
+            <h1 className="text-xl font-bold">Religion and spirituality</h1>
+            <br />
+            <ReferencingVisual src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Brooklyn_Museum_1992.133.4_Figure_of_Shango_on_Horseback.jpg/170px-Brooklyn_Museum_1992.133.4_Figure_of_Shango_on_Horseback.jpg" w={250} h={400} caption={
+                (
+                    <>
+                        Shango, the Orisha of fire, lightning, and thunder, in the Yoruba religion, depicted on horseback
+                    </>
+                )
+            } />
+            <br />
+            <br />
+            <p>
+                Definitions of <Link slug="Religion" title="religion" /> vary; according to one definition, a religion is a belief system concerning the supernatural, sacred or divine, and practices, values, institutions and rituals associated with such belief. Some religions also have a moral code. The evolution and the history of the first religions have become areas of active scientific investigation. Credible evidence of religious behavior dates to the Middle Paleolithic era (45–200 thousand years ago). It may have evolved to play a role in helping enforce and encourage cooperation between humans.
+                <br />
+                <br />
+                Religion manifests in diverse forms. Religion can include a belief in life after death, the origin of life, the nature of the <Link slug="Universe" title="universe" /> (religious cosmology) and its ultimate fate (eschatology), and moral or ethical teachings. Views on transcendence and immanence vary substantially; traditions variously espouse monism, deism, pantheism, and theism (including polytheism and monotheism).
+                <br />
+                <br />
+                Although measuring religiosity is difficult, a majority of humans profess some variety of religious or spiritual belief. In 2015 <HighLightText text="the plurality were Christian followed by Muslims, Hindus and Buddhists" />. As of 2015, about 16%, or slightly under 1.2 billion humans, were irreligious, including those with no religious beliefs or no identity with any religion.
+                <br />
+                <br />
+            </p>
+            <h1 className="text-xl font-bold">Science and philosophy</h1>
+            <MainArticle slug="Science" title="Science" />
+            <ReferencingVisual src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Dunhuang_star_map.jpg/220px-Dunhuang_star_map.jpg" w={300} h={300} caption={
+                (
+                    <>
+                        The Dunhuang map, a star map showing the North Polar region. China circa 700.
+                    </>
+                )
+            } />
+            <br />
+            <p>
+                An aspect unique to humans is their ability to transmit knowledge from one generation to the next and to continually build on this information to develop tools, scientific laws and other advances to pass on further. This accumulated knowledge can be tested to answer questions or make predictions about how the universe functions and has been very successful in advancing human ascendancy.
+                <br />
+                <br />
+                Aristotle has been described as the first scientist, and preceded the rise of scientific thought through the Hellenistic period. Other early advances in science came from the Han dynasty in China and during the Islamic Golden Age. The scientific revolution, near the end of the Renaissance, led to the emergence of modern science.
+                <br />
+                <br />
+                A chain of events and influences led to the development of the scientific method, a process of observation and experimentation that is used to differentiate science from pseudoscience. An understanding of mathematics is unique to humans, although other species of animals have some numerical cognition. All of science can be divided into three major branches, the formal sciences (e.g., logic and mathematics), which are concerned with formal systems, the applied sciences (e.g., engineering, medicine), which are focused on practical applications, and the empirical sciences, which are based on empirical observation and are in turn divided into natural sciences (e.g., <Link slug="Physics" title="physics" />, chemistry, <Link slug="Biology" title="biology" />) and social sciences (e.g., psychology, economics, sociology).
+                <br />
+                <br />
+                Philosophy is a field of study where humans seek to understand fundamental truths about themselves and the world in which they live. Philosophical inquiry has been a major feature in the development of humans&apos; intellectual history. It has been described as the &quot;no man&apos;s land&quot; between definitive scientific knowledge and dogmatic religious teachings. Philosophy relies on reason and evidence, unlike religion, but does not require the empirical observations and experiments provided by science. Major fields of philosophy include metaphysics, epistemology, logic, and axiology (which includes ethics and aesthetics).
             </p>
             <ParagraphSecondaryHeader id="This_can_be_continued">This can be continued</ParagraphSecondaryHeader>
             <ParagraphSecondaryHeader id="Scientific_classification">Scientific classification</ParagraphSecondaryHeader>
