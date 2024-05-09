@@ -1,7 +1,7 @@
 "use client";
 import { TypewriterEffect } from "./ui/typewriter-effect";
 import { MovingBorderButton } from "./MovingBorderButton";
-import Link from "next/link";
+import Go from "./Go";
 
 export function TypeWriterEffect() {
   const words = [
@@ -30,9 +30,9 @@ export function TypeWriterEffect() {
       </p>
       <TypewriterEffect words={words} />
       <div className="flex flex-col md:flex-row mt-10 space-y-4 md:space-y-0 space-x-0 md:space-x-4">
-        <Link href={"/base"}>
+        <Go to={"/base"}>
           <MovingBorderButton text="Let&apos;s GO!" />
-        </Link>
+        </Go>
       </div>
     </div>
   );

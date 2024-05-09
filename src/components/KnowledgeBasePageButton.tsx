@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Link from "next/link";
+import Go from "./Go";
 
 export default function KnowledgeBasePageButton() {
   const buttonVariants = {
@@ -12,7 +12,7 @@ export default function KnowledgeBasePageButton() {
   };
 
   return (
-    <Link href={"/base"}>
+    <Go to={"/base"}>
       <motion.button
         className="text-center flex justify-center items-center mx-auto px-[30px] py-[18px] rounded-full border border-white/[0.5] mb-14 relative backdrop-blur-xl text-sm antialiased bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
         variants={buttonVariants}
@@ -20,6 +20,6 @@ export default function KnowledgeBasePageButton() {
       >
         {"<"} Back to Base
       </motion.button>
-    </Link>
+    </Go>
   );
 }

@@ -1,4 +1,4 @@
-import Link from "next/link";
+"use client";
 
 export interface RedirectProps {
     href: string;
@@ -8,7 +8,7 @@ export interface RedirectProps {
 export default function Redirect({ href, text }: RedirectProps) {
     return (
         <>
-            <Link className="text-blue-400 hover:underline" href={ href }>{ text }</Link>
+            <span className="text-blue-400 hover:underline cursor-pointer" onClick={() => window.open(`${href}`)}>{ text }</span>
         </>
     );
 };

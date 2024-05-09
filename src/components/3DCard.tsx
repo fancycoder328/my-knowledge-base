@@ -3,7 +3,7 @@
 import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
-import Link from "next/link";
+import Go from "./Go";
 
 export interface ThreeDimensionalCardProps {
   title: string;
@@ -50,7 +50,7 @@ export function ThreeDimensionalCard({
           >
             {topic}
           </CardItem>
-          <Link href={href}>
+          <Go to={href}>
             <CardItem
               translateZ={20}
               as="button"
@@ -58,7 +58,7 @@ export function ThreeDimensionalCard({
             >
               Read more &rarr;
             </CardItem>
-          </Link>
+          </Go>
         </div>
       </CardBody>
     </CardContainer>
