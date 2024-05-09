@@ -16,8 +16,9 @@ export const siteMetaData = {
     description: "Knowledge Base of Developer Sujay!",
     author: "Sujay Mukherjee",
     developer: "Sujay Mukherjee",
+    previousBaseURI: "https://developer-sujays-knowledge-base.vercel.app",
     repository: "https://github.com/devsujay19/knowledgebase",
-    baseURI: "https://developer-sujays-knowledge-base.vercel.app",
+    baseURI: "https://dskb.vercel.app",
     copyRightSentence: `© ${copyRightYear} | Sujay Mukherjee. All Rights Reserved.`,
     copyRightYear: copyRightYear,
 };
