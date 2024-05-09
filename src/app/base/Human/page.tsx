@@ -262,7 +262,7 @@ export default function Human() {
             </p>
             <br />
             <br />
-            <h1 className="text-xl font-bold">Genetics</h1>
+            <h1 id="Genetics" className="text-xl font-bold">Genetics</h1>
             <br />
             <ReferencingVisual src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Karyotype.png/330px-Karyotype.png" w={450} h={480} caption={
                 (

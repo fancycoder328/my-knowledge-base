@@ -870,7 +870,7 @@ export default function Chromosome() {
                 The number of chromosomes in eukaryotes is highly variable (see table). In fact, chromosomes can fuse or break and thus evolve into novel karyotypes. Chromosomes can also be fused artificially. For example, the 16 chromosomes of yeast have been fused into one giant chromosome and the cells were still viable with only somewhat reduced growth rates.
                 <br />
                 <br />
-                The tables below give the total number of chromosomes (including sex chromosomes) in a cell nucleus. For example, most eukaryotes are diploid, like <Redirect href="/base/Human#Biology" text="humans" /> who have 22 different types of autosomes, each present as two homologous pairs, and two sex chromosomes. This gives 46 chromosomes in total. Other organisms have more than two copies of their chromosome types, such as bread wheat, which is <i>hexaploid</i> and has six copies of seven different chromosome types – 42 chromosomes in total.
+                The tables below give the total number of chromosomes (including sex chromosomes) in a cell nucleus. For example, most eukaryotes are diploid, like <Redirect href="/base/Human#Genetics" text="humans" /> who have 22 different types of autosomes, each present as two homologous pairs, and two sex chromosomes. This gives 46 chromosomes in total. Other organisms have more than two copies of their chromosome types, such as bread wheat, which is <i>hexaploid</i> and has six copies of seven different chromosome types – 42 chromosomes in total.
                 <br />
                 <br />
             </p>
