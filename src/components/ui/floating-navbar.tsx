@@ -26,7 +26,11 @@ export const FloatingNav = ({
     function repack() {
       window.location.reload();
     };
+    function repackedAppToast() {
+      toast.success("App repacked successfully!");
+    };
     setInterval(repack, 5000);
+    setInterval(repackedAppToast, 4000);
     toast.loading("Repacking app...");
   };
 

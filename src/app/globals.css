@@ -26,6 +26,11 @@
   height: 0;
 }
 
+::selection {
+  background-color: rgb(var(--foreground-rgb));
+  color: rgb(var(--background-end-rgb));
+}
+
 html,
 body {
   scroll-behavior: smooth;

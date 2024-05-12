@@ -6,6 +6,7 @@ import Redirect from "@/components/Redirect";
 import ParagraphSecondaryHeader from "@/components/ParagraphSecondaryHeader";
 import SubTitle from "@/components/SubTitle";
 import ReferencingVisual from "@/components/ReferencingVisual";
+import MainArticle from "@/components/MainArticle";
 
 export default function Makemake() {
     const content = (
@@ -131,7 +132,77 @@ export default function Makemake() {
                 <br />
                 The presence of methane and possibly nitrogen suggests that Makemake could have a transient atmosphere similar to that of Pluto near its perihelion. Nitrogen, if present, will be the dominant component of it. The existence of an atmosphere also provides a natural explanation for the nitrogen depletion: because the gravity of Makemake is weaker than that of Pluto, Eris and Triton, a large amount of nitrogen was probably lost via atmospheric escape; methane is lighter than nitrogen, but has significantly lower vapor pressure at temperatures prevalent at the surface of Makemake (32–36 K), which hinders its escape; the result of this process is a higher relative abundance of methane. However, studies of Pluto&apos;s atmosphere by <i>New Horizons</i> suggest that methane, not nitrogen, is the dominant escaping gas, suggesting that the reasons for Makemake&apos;s absence of nitrogen may be more complicated.
             </p>
-            <ParagraphSecondaryHeader id="This_can_be_continued">[This can be continued]</ParagraphSecondaryHeader>
+            <ParagraphSecondaryHeader id="Satellite">Satellite</ParagraphSecondaryHeader>
+            <span id="Satellite"></span>
+            <MainArticle slug="S_2015_(136472)_1" title="S/2015 (136472) 1" />
+            <ReferencingVisual src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Makemake_moon_Hubble_two_images.jpg/260px-Makemake_moon_Hubble_two_images.jpg" w={350} h={200} caption={
+                (
+                    <>
+                        Two images of Makemake and its satellite taken by Hubble two days apart in April 2015
+                    </>
+                )
+            } />
+            <br />
+            <p>
+                Makemake has a single discovered moon, S/2015 (136472) 1 and nicknamed <Link slug="S_2015_(136472)_1" title="MK2" />. It was seen 21,000 km (13,000 mi) from the dwarf planet, and its diameter is estimated at 175 km (110 mi) (for an assumed albedo of 4%).
+            </p>
+            <br />
+            <h1 className="text-lg font-bold text-center">Makemake system</h1>
+            <br />
+            <div className="flex flex-col text-white">
+                <div className="-m-1.5 overflow-x-auto">
+                    <div className="p-1.5 min-w-full inline-block align-middle">
+                        <div className="border overflow-hidden">
+                            <table className="min-w-full divide-y divide-gray-200">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" className="px-6 py-3 text-base font-medium text-gray-300 border-r text-left">Name</th>
+                                        <th scope="col" className="px-6 py-3 text-base font-medium text-gray-300 text-left border-r">
+                                            Diameter (km.)
+                                        </th>
+                                        <th scope="col" className="px-6 py-3 text-base font-medium text-gray-300 text-left">
+                                            Discovery Date
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody className="divide-y divide-gray-200">
+                                    <tr>
+                                        <td className="px-6 py-4 border-r whitespace-nowrap text-sm font-medium">
+                                            Makemake
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm border-r">≈ 1430</td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">March 31, 2005
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm border-r font-medium">
+                                            S/2015 (136472) 1
+                                        </td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm border-r">≈ 175</td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm">April 25, 2015</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ParagraphSecondaryHeader id="Exploration">Exploration</ParagraphSecondaryHeader>
+            <span id="Exploration"></span>
+            <ReferencingVisual src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Makemake_New_Horizons.gif/260px-Makemake_New_Horizons.gif" w={250} h={250} caption={
+                (
+                    <>
+                        Makemake, indicated with red bars, as imaged by the <i>New Horizons</i> spacecraft in October 2007
+                    </>
+                )
+            } />
+            <br />
+            <p>
+                Makemake was observed from afar by the <i>New Horizons</i> spacecraft in October 2007 and January 2017, from distances of 52 AU and 70 AU, respectively. The spacecraft&apos;s outbound trajectory permitted observations of Makemake at high phase angles that are otherwise unobtainable from Earth, enabling the determination of the light scattering properties and phase curve behavior of Makemake&apos;s surface.
+                <br />
+                <br />
+                It has been calculated that a flyby mission to Makemake could take just over 16 years using a Jupiter gravity assist, based on a launch date of 21 August 2024 or 24 August 2036. Makemake would be approximately 52 AU from the Sun when the spacecraft arrives.
+            </p>
             <ParagraphSecondaryHeader id="Orbital_characteristics">Orbital characteristics</ParagraphSecondaryHeader>
             <p id="Orbital_characteristics">
                 <Bold>Epoch</Bold>: <Bold>May 31</Bold>, <Bold>2020</Bold>;<br /><Bold>JD</Bold>: <Bold>2458900.5</Bold>;<br /><Bold>Earliest</Bold>: <Bold>January 29</Bold>, <Bold>1955</Bold>;<br /><Bold>Precovery date</Bold>: unknown yet;<br /><Bold>Aphelion</Bold>: <Bold>52.756 AU (7.8922 Tm)</Bold>;<br /><Bold>Perihelion</Bold>: <Bold>38.104 AU (5.7003 Tm)</Bold>;<br /><Bold>Semi-major axis</Bold>: <Bold>45.430 AU (6.7962 Tm)</Bold>;<br /><Bold>Eccentricity</Bold>: <Bold>0.16126</Bold>;<br /><Bold>Orbital period (sidereal)</Bold>: <Bold>306.21 yr (111,845 d)</Bold>;<br /><Bold>Average Orbital Speed</Bold>: <Bold>4.419 km/s</Bold>;<br /><Bold>Mean anomaly</Bold>: <Bold>165.514°</Bold>;<br /><Bold>Inclination</Bold>: <Bold>28.9835°</Bold>;<br /><Bold>Longitude of ascending node</Bold>: <Bold>79.620°</Bold>;<br /><Bold>Next time of Perihelion</Bold>: <Bold>17 November</Bold>, <Bold>2186</Bold>;<br /><Bold>Argument of perihelion</Bold>: <Bold>294.834°</Bold>;<br /><Bold>Known satellite(s)</Bold>: <Bold>1</Bold>

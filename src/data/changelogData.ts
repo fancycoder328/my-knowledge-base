@@ -1,10 +1,16 @@
 export const changelogData = {
     logs: [
         {
+            title: "Completed Makemake article",
+            type: "Moderate",
+            date: "May 12, 2024",
+            updates: "Completed Makemake article.",
+        },
+        {
             title: "Added toaster message",
             type: "Feature",
             date: "May 10, 2024",
-            updates: "Added a toaster in the Rpack button in the NavigationBar component for letting client know that the operation is done successfully.",
+            updates: "Added a toaster in the Repack button in the NavigationBar component for letting client know that the operation is done successfully.",
         },
         {
             title: "Added Loader",
