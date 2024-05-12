@@ -1,81 +1,48 @@
 "use client";
 
+import React from "react";
 import { motion } from "framer-motion";
 
-const loadingContainer = {
-    width: "4rem",
-    height: "4rem",
-    display: "flex",
-    justifyContent: "space-around",
-};
-
-const loadingCircle = {
+const ballStyle = {
     display: "block",
     width: "1rem",
     height: "1rem",
-    backgroundColor: "#3A36DB",
-    borderRadius: "0.5rem",
+    backgroundColor: "black",
+    borderRadius: "0.5rem"
 };
 
-const loadingContainerVariants = {
-    start: {
-        transition: {
-            staggerChildren: 0.2,
-        },
+const bounceTransition = {
+    y: {
+        duration: 0.4,
+        yoyo: Infinity,
+        ease: "easeOut"
     },
-    end: {
-        transition: {
-            staggerChildren: 0.2,
-        },
-    },
+    backgroundColor: {
+        duration: 0,
+        yoyo: Infinity,
+        ease: "easeOut",
+        repeatDelay: 0.8
+    }
 };
 
-const loadingCircleVariants = {
-    start: {
-        y: "0%",
-    },
-    end: {
-        y: "60%",
-    },
-};
-
-const loadingCircleTransition = {
-    duration: 0.4,
-    yoyo: Infinity,
-    ease: "easeInOut",
-};
-
-export default function Loader() {
+export default function BouncingBall() {
     return (
-        <div>
-            {/* Background overlay */}
-            <div className="fixed w-full min-h-screen z-50 bg-black opacity-30">
-                <div className="flex fixed w-full justify-center items-center h-screen">
-                    {/* Loading animation */}
-                    <motion.div
-                        style={loadingContainer}
-                        variants={loadingContainerVariants}
-                        initial="start"
-                        animate="end"
-                    >
-                        <motion.span
-                            style={loadingCircle}
-                            variants={loadingCircleVariants}
-                            transition={loadingCircleTransition}
-                        ></motion.span>
-                        <motion.span
-                            style={loadingCircle}
-                            variants={loadingCircleVariants}
-                            transition={loadingCircleTransition}
-                        ></motion.span>
-                        <motion.span
-                            style={loadingCircle}
-                            variants={loadingCircleVariants}
-                            transition={loadingCircleTransition}
-                        ></motion.span>
-                    </motion.div>
-                </div>
-            </div>
+        <div
+            style={{
+                width: "2rem",
+                height: "2rem",
+                display: "flex",
+                justifyContent: "space-around"
+            }}
+        >
+            <motion.span
+                style={ballStyle}
+                transition={bounceTransition}
+                animate={{
+                    y: ["100%", "-100%"],
+                    backgroundColor: ["#ff6699", "#6666ff"]
+                }}
+            />
         </div>
     );
-};
+}

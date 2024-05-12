@@ -2,6 +2,8 @@ import { knowledgeBase } from "@/data/baseConstants";
 import { ThreeDimensionalCard } from "@/components/3DCard";
 import { Vortex } from "@/components/ui/vortex";
 import { Sparkles } from "@/components/Sparkles";
+import { Suspense } from "react";
+import Loader from "@/components/Loader";
 
 export default function BasePage() {
   return (
@@ -18,13 +20,15 @@ export default function BasePage() {
             {knowledgeBase.paragraphs.map((paragraph, i) => (
               <ul key={i}>
                 <li>
-                  <ThreeDimensionalCard title={paragraph.title} shortDescription={paragraph.shortDescription} thumbnail={paragraph.thumbnail} topic={paragraph.topic} href={`/base/${paragraph.slug}`} />
+                  <Suspense fallback={<Loader />}>
+                    <ThreeDimensionalCard title={paragraph.title} shortDescription={paragraph.shortDescription} thumbnail={paragraph.thumbnail} topic={paragraph.topic} href={`/base/${paragraph.slug}`} />
+                  </Suspense>
                 </li>
               </ul>
             ))}
           </div>
-        </Vortex>
-      </div>
+        </Vortex >
+      </div >
     </>
   );
 };

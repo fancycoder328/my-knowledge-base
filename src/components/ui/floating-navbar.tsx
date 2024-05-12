@@ -7,6 +7,7 @@ import {
   useMotionValueEvent,
 } from "framer-motion";
 import { cn } from "@/utils/cn";
+import { toast } from "sonner";
 
 export const FloatingNav = ({
   navItems,
@@ -22,7 +23,11 @@ export const FloatingNav = ({
 }) => {
 
   function handleClick() {
-    window.location.reload();
+    function repack() {
+      window.location.reload();
+    };
+    setInterval(repack, 5000);
+    toast.loading("Repacking app...");
   };
 
   const { scrollYProgress } = useScroll();

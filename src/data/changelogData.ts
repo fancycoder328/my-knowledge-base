@@ -1,6 +1,18 @@
 export const changelogData = {
     logs: [
         {
+            title: "Added toaster message",
+            type: "Feature",
+            date: "May 10, 2024",
+            updates: "Added a toaster in the Rpack button in the NavigationBar component for letting client know that the operation is done successfully.",
+        },
+        {
+            title: "Added Loader",
+            type: "Feature",
+            date: "May 10, 2024",
+            updates: "Added a loader for replacing the default blank state while loading the data/content dynamically.",
+        },
+        {
             title: "Created Changelog utility",
             type: "Feature",
             date: "May 9, 2024",

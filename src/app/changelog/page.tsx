@@ -29,7 +29,7 @@ export default function ChangeLog() {
                                                 <div className="text-md">
                                                     <div className="pb-[-5px]">
                                                         <span className="font-medium text-lg mr-2">{log.title}</span>
-                                                        <span onClick={() => window.open("https://github.com/devsujay19/knowledgebase/commits")} className="cursor-pointer my-0.5 relative inline-flex items-center rounded-full border text-neutral-500 transition border-neutral-500 hover:border-neutral-200 hover:text-neutral-200 px-3 py-0.5 text-sm">
+                                                        <span onClick={() => window.open("https://github.com/devsujay19/knowledgebase/commits/main")} className="cursor-pointer my-0.5 relative inline-flex items-center rounded-full border text-neutral-500 transition border-neutral-500 hover:border-neutral-200 hover:text-neutral-200 px-3 py-0.5 text-sm">
                                                             <div className="absolute flex-shrink-0 flex items-center justify-center">
                                                             </div>
                                                             <div className="font-medium">{log.type}</div>
