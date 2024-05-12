@@ -23,13 +23,22 @@ export default function Makemake_deity() {
                 <br />
                 The <i>ivi</i> atua was the &apos;seer&apos; who has the vision to select who swam to Motu Nui. A <i>hopu</i> was one of those who make the swim to the islet. Per Englert, the <i>hopu manu</i> were &quot;those who served the <i>tagata manu</i> and, upon finding the first <i>manutara</i> egg, took it to Orongo [on the mainland].&quot; The <i>manu tara</i>, or sooty tern, was the bird that the ceremony centred on; it was the first <i>manu tara</i> egg that was the goal of the ceremony.
             </p>
+            <ParagraphSecondaryHeader id="Companion">Companion</ParagraphSecondaryHeader>
+            <p id="Companion">
+                Makemake&apos;s principal companion was <Bold>Haua</Bold>. &quot;The formula which accompanies an offering to Makemake always includes Haua who appears in the myth as the god&apos;s companion.&quot;.
+                <br />
+                <br />
+                Makemake&apos;s offspring were Tive, Rorai, Hova and &quot;the noblewoman Arangi-kote-kote&quot;.
+            </p>
             <ParagraphSecondaryHeader id="Modern_uses_of_Makemake">Modern uses of Makemake</ParagraphSecondaryHeader>
             <p id="Modern_uses_of_Makemake">
                 In 2000, BBC produced the documentary &quot;The Lost Gods of Easter Island&quot; exploring a carved wooden idol that David Attenborough purchased in an auction room. It was cheap because the seller believed it was a forgery. Its whole history is discovered: while there was still wood of the (now locally extinct) Toromiro tree on Easter Island it was carved to represent the god Makemake, traded with the crew of Captain Cook&apos;s ship, transported to Tahiti, probably traded by the Tahitians eventually ending up in the auction.
                 <br />
                 <br />
                 <br />
-                <h1 className="font-bold text-xl">Astronomy</h1>
+            </p>
+            <h1 className="font-bold text-xl">Astronomy</h1>
+            <p>
                 <br />
                 The trans-Neptunian dwarf planet Makemake is so named because both the planet and the island are connected to Easter; the planet was discovered shortly after Easter 2005, and the first European contact with Easter Island was on Easter Sunday 1722. The dwarf planet&apos;s code name was &quot;Easterbunny&quot;.
             </p>
