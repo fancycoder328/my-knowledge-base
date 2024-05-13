@@ -1,4 +1,9 @@
 import CitationLayout from "@/layouts/CitationLayout";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Microorganism - Knowledge Base | Developer Sujay",
+};
 
 export default function MicroorganismCitation() {
 

@@ -3,6 +3,11 @@ import ReferencingVisual from "@/components/ReferencingVisual";
 import ParagraphSecondaryHeader from "@/components/ParagraphSecondaryHeader";
 import Link from "@/components/Link";
 import Bold from "@/components/Bold";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Sperm - Knowledge Base | Developer Sujay",
+};
 
 export default function Sperm() {
     const content = (

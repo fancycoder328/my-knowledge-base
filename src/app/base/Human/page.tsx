@@ -12,7 +12,11 @@ import OnboardingCitation from "@/components/OnboardingCitation";
 import TwoMainArticles from "@/components/TwoMainArticles";
 import TransparentReferencingVisual from "@/components/TransparentReferencingVisual";
 import SubTitle from "@/components/SubTitle";
-import { Refractor } from "three/examples/jsm/Addons.js";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Human - Knowledge Base | Developer Sujay",
+};
 
 export default function Human() {
 

@@ -2,6 +2,11 @@ import Bold from "@/components/Bold";
 import NotToBeConfusedWith from "@/components/NotToBeConfusedWith";
 import Layout from "@/layouts/Layout";
 import ParagraphSecondaryHeader from "@/components/ParagraphSecondaryHeader";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Makemake (deity) - Knowledge Base | Developer Sujay",
+};
 
 export default function Makemake_deity() {
     const content = (

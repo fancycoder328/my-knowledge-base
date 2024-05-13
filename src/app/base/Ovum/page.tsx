@@ -4,6 +4,11 @@ import Bold from "@/components/Bold";
 import Link from "@/components/Link";
 import ReferencingVisual from "@/components/ReferencingVisual";
 import TransparentReferencingVisual from "@/components/TransparentReferencingVisual";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Ovum - Knowledge Base | Developer Sujay",
+};
 
 export default function Ovum() {
     const content = (

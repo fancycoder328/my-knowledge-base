@@ -3,6 +3,11 @@ import Bold from "@/components/Bold";
 import ParagraphSecondaryHeader from "@/components/ParagraphSecondaryHeader";
 import Link from "@/components/Link";
 import ReferencingVisual from "@/components/ReferencingVisual";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Prosthesis - Knowledge Base | Developer Sujay",
+};
 
 export default function Prosthesis() {
     const content = (

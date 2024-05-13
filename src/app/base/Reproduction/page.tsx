@@ -4,6 +4,11 @@ import ReferencingVisual from "@/components/ReferencingVisual";
 import ParagraphSecondaryHeader from "@/components/ParagraphSecondaryHeader";
 import Link from "@/components/Link";
 import Citation from "@/components/Citation";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Reproduction - Knowledge Base | Developer Sujay",
+};
 
 export default function Reproduction() {
     const content = (

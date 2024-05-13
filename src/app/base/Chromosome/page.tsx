@@ -8,6 +8,11 @@ import ReferencingVisualCaption from "@/components/ReferencingVisualCaption";
 import HighLightText from "@/components/HighLightText";
 import SubTitle from "@/components/SubTitle";
 import Redirect from "@/components/Redirect";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Chromosome - Knowledge Base | Developer Sujay",
+};
 
 export default function Chromosome() {
     const content = (

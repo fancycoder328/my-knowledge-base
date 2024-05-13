@@ -7,6 +7,11 @@ import ParagraphSecondaryHeader from "@/components/ParagraphSecondaryHeader";
 import SubTitle from "@/components/SubTitle";
 import ReferencingVisual from "@/components/ReferencingVisual";
 import MainArticle from "@/components/MainArticle";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Makemake - Knowledge Base | Developer Sujay",
+};
 
 export default function Makemake() {
     const content = (

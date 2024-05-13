@@ -6,6 +6,11 @@ import Redirect from "@/components/Redirect";
 import OnboardingCitation from "@/components/OnboardingCitation";
 import Citation from "@/components/Citation";
 import Bold from "@/components/Bold";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Introduction - Knowledge Base | Developer Sujay",
+};
 
 export default function Introduction() {
     const content = (

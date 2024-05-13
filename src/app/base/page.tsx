@@ -4,6 +4,11 @@ import { Vortex } from "@/components/ui/vortex";
 import { Sparkles } from "@/components/Sparkles";
 import { Suspense } from "react";
 import Loader from "@/components/Loader";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Base - Knowledge Base | Developer Sujay",
+};
 
 export default function BasePage() {
   return (

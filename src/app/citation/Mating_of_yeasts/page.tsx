@@ -1,6 +1,11 @@
 import CitationLayout from "@/layouts/CitationLayout";
 import Link from "@/components/Link";
 import Bold from "@/components/Bold";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Mating of yeasts - Knowledge Base | Developer Sujay",
+};
 
 export default function Mating_of_yeastsCitation() {
     const content = (

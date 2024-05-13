@@ -99,6 +99,13 @@ export const knowledgeBase = {
             slug: "Hominidae",
         },
         {
+            title: "Menstruation",
+            shortDescription: "Shedding of the uterine lining",
+            thumbnail: "/assets/menstruation.png",
+            topic: "Progressive Function",
+            slug: "Menstruation",
+        },
+        {
             title: "Species",
             shortDescription: "Basic unit of taxonomic classification which lies below genus",
             thumbnail: "/assets/species.png",
