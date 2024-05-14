@@ -21,6 +21,7 @@ export default function Menstruation() {
             <p>
                 <Bold>Menstruation</Bold> (also known as a <Bold>period</Bold>, among other colloquial terms) is the regular discharge of blood and mucosal tissue from the inner lining of the uterus through the vagina. The menstrual cycle is characterized by the rise and fall of hormones. Menstruation is triggered by falling progesterone levels and is a sign that pregnancy has not occurred.
             </p>
+            <br />
             <ReferencingVisual src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Lining_of_Uterine_Wall.jpg/330px-Lining_of_Uterine_Wall.jpg" w={250} h={200} caption={
                 (
                     <>
