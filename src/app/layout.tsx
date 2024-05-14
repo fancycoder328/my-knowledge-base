@@ -25,7 +25,7 @@ export default function RootLayout({
       <head>
         <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon" />
       </head>
-      <body className={`${inter.className} dark transition-all`}>
+      <body className={`${inter.className} bg-black transition-all`}>
         <Suspense fallback={<BouncingBall />}>
           <NavigationBar />
           {children}
