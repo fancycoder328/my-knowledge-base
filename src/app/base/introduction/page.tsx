@@ -22,7 +22,7 @@ export default function Introduction() {
                             The <Bold>Onboarding Citation</Bold> is a feature for displaying short information in the same page without sliding up or down or without leaving the current page. The &quot;[n {"{note number}"}]&quot; means that there&apos;s a short note for this sentence or phrase the &apos;n&apos; tagged on.
                         </>
                     )
-                } />. This platform doesn&apos;t only include stuffs about development and coding, but includes about <Link slug={"Biology"} title="Biology" />, <Link slug={"Chemistry"} title="Chemistry" /> and <Redirect href="/base" text="more" />...
+                } />. I wrote all of the articles with data from either a book or from <Link slug="Internet" title="Internet" />. This platform doesn&apos;t only include stuffs about development and coding, but includes about <Link slug={"Biology"} title="Biology" />, <Link slug={"Chemistry"} title="Chemistry" /> and <Redirect href="/base" text="more" />...
             </p>
             <Divider />
             <label htmlFor="ul">Some information that you probably don&apos;t need unless you&apos;re a developer 😅:</label>
