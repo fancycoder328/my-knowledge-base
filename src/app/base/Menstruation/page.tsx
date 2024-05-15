@@ -406,6 +406,7 @@ export default function Menstruation() {
             </p>
             <br />
             <SecondarySubTitle>Seclusion during menstruation</SecondarySubTitle>
+            <br />
             <ReferencingVisual src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Mass-Community_Health_Teaching.JPG/220px-Mass-Community_Health_Teaching.JPG" w={200} h={200} caption={
                 (
                     <>
@@ -420,11 +421,13 @@ export default function Menstruation() {
             <br />
             <SubTitle>Beliefs around synchrony</SubTitle>
             <SecondarySubTitle>Effects of the moon</SecondarySubTitle>
+            <br />
             <p>
                 Even though the average length of the human menstrual cycle is similar to that of the lunar cycle, in modern humans there is no relation between the two. The relationship is believed to be a coincidence. Light exposure does not appear to affect the menstrual cycle in humans. A meta-analysis of studies from 1996 showed no correlation between the human menstrual cycle and the lunar cycle, nor did data analyzed by period-tracking app Clue, submitted by 1.5 million women, of 7.5 million menstrual cycles; however, the lunar cycle and the average menstrual cycle were found to be basically equal in length.
             </p>
             <br />
             <SecondarySubTitle>Cohabitation</SecondarySubTitle>
+            <br />
             <p>
                 Beginning in 1971, some research suggested that menstrual cycles of cohabiting women became synchronized (menstrual synchrony). Subsequent research has called this hypothesis into question. A 2013 review concluded that menstrual synchrony likely does not exist.
             </p>
