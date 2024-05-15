@@ -4,18 +4,18 @@ import { useState } from "react";
 import { toast } from "sonner";
 import ReferencingVisualCaption from "./ReferencingVisualCaption";
 
-export interface CensoredImageProps {
+export interface ConfidentialImageProps {
     src: string;
     w: number;
     h: number;
     caption: React.ReactNode;
 };
 
-export default function CensoredImage({ src, w, h, caption }: CensoredImageProps) {
+export default function ConfidentialImage({ src, w, h, caption }: ConfidentialImageProps) {
     const [isConfirmed, setIsConfirmed] = useState(false);
 
     const handleImageBlurness = () => {
-        if (window.confirm("The image might be inappropriate for you or your nearby person. Confirm to remove image blurness?")) {
+        if (window.confirm("The image might be confidential for you to your nearby person. Confirm to remove image blurness?")) {
             setIsConfirmed(true);
             toast.warning("Image blurness removed. Repack app to blur again.");
         };
@@ -30,7 +30,7 @@ export default function CensoredImage({ src, w, h, caption }: CensoredImageProps
                         src={src}
                         width={w}
                         height={h}
-                        alt="Censored image"
+                        alt="Confidential image"
                     />
                     <button
                         className="bg-blue-500 hover:bg-blue-600 mx-auto text-center justify-center items-center text-white font-bold py-2 px-4 rounded transition-all z-50 -top-4 hidden duration-[12000ms]"
@@ -45,7 +45,7 @@ export default function CensoredImage({ src, w, h, caption }: CensoredImageProps
                         src={src}
                         width={w}
                         height={h}
-                        alt="Censored image"
+                        alt="Confidential image"
                     />
                     <button
                         className="bg-blue-500 hover:bg-blue-600 mx-auto text-center flex justify-center items-center text-white font-bold py-2 px-4 rounded transition-all z-50 -top-4"

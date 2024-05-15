@@ -1,4 +1,6 @@
-import Link from "next/link";
+"use client";
+
+import Go from "./Go";
 import { IconInfoCircleFilled } from "@tabler/icons-react";
 
 export interface NotToBeConfusedWithProps {
@@ -11,7 +13,7 @@ export default function NotToBeConfusedWith({ slug, title }: NotToBeConfusedWith
         <>
             <blockquote className="border-l-4 border-neutral-500 pl-4 rounded-[3.5px] h-10 items-center flex mb-5">
                 <IconInfoCircleFilled className="mr-4" />
-                Not to be confused with&nbsp;<Link className="text-blue-400 hover:underline italic" href={`/base/${ slug }`}>{ title }</Link>.
+                Not to be confused with&nbsp;<span className="italic hover:underline text-blue-400 cursor-pointer"><Go to={`/base/${ slug }`}>{ title }</Go></span>.
             </blockquote>
         </>
     );

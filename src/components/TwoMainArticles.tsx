@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Go from "./Go";
 
 export interface TwoMainArticlesProps {
     firstArticleSlug: string;
@@ -12,13 +12,13 @@ export default function TwoMainArticles({ firstArticleSlug, firstArticleName, se
         <>
             <br />
             <span className="pl-4 italic">Main article:&nbsp;
-                <Link href={`/base/${firstArticleSlug}`}>
+                <Go to={`/base/${firstArticleSlug}`}>
                     <span className="text-blue-400 hover:underline">{firstArticleName}</span>
-                </Link>
+                </Go>
                 &nbsp;and&nbsp;
-                <Link href={`/base/${secondArticleSlug}`}>
+                <Go to={`/base/${secondArticleSlug}`}>
                     <span className="text-blue-400 hover:underline">{secondArticleName}</span>
-                </Link>
+                </Go>
             </span>
             <br />
             <br />

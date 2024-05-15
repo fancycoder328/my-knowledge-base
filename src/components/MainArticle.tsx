@@ -1,4 +1,6 @@
-import Link from "next/link";
+"use client";
+
+import Go from "./Go";
 
 export interface MainArticleProps {
     slug: string;
@@ -10,9 +12,9 @@ export default function MainArticle({ slug, title }: MainArticleProps) {
         <>
             <br />
             <span className="pl-4 italic">Main article:&nbsp;
-                <Link href={`/base/${slug}`}>
-                    <span className="text-blue-400 hover:underline">{title}</span>
-                </Link>
+                <Go to={`/base/${slug}`}>
+                    <span className="text-blue-400 hover:underline cursor-pointer">{title}</span>
+                </Go>
             </span>
             <br />
             <br />

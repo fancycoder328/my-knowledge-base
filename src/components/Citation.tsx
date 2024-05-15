@@ -1,4 +1,6 @@
-import Link from "next/link";
+"use client";
+
+import Go from "./Go";
 
 export interface CitationProps {
     href: string;
@@ -8,13 +10,15 @@ export interface CitationProps {
 export default function Citation({ href, number }: CitationProps) {
     return (
         <>
-            <Link className="text-blue-400" href={`/citation/${href}`}>
-                <sup>
-                    [
+            <span className="text-blue-400 cursor-pointer">
+                <Go to={`/citation/${href}`}>
+                    <sup>
+                        [
                         <span className="hover:underline">{number}</span>
-                    ]
-                </sup>
-            </Link>
+                        ]
+                    </sup>
+                </Go>
+            </span>
         </>
     );
 };

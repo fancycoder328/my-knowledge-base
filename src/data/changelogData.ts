@@ -1,6 +1,18 @@
 export const changelogData = {
     logs: [
         {
+            title: "Completed Ophiocordyceps unilateralis article",
+            type: "Completion",
+            date: "May 15, 2024",
+            updates: "Completed Ophiocordyceps unilateralis article.",
+        },
+        {
+            title: "Completed Menstruation article",
+            type: "Completion",
+            date: "May 15, 2024",
+            updates: "Completed Menstruation article.",
+        },
+        {
             title: "Completed Human body article",
             type: "Completion",
             date: "May 13, 2024",
