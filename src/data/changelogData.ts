@@ -1,6 +1,18 @@
 export const changelogData = {
     logs: [
         {
+            title: "Completed Gamete article",
+            type: "Completion",
+            date: "May 16, 2024",
+            updates: "Completed Gamete article.",
+        },
+        {
+            title: "Organized articles in completed-order",
+            type: "Moderate",
+            date: "May 16, 2024",
+            updates: "Organized all of the articles' cards in the /base page in order to completed.",
+        },
+        {
             title: "Completed Ophiocordyceps unilateralis article",
             type: "Completion",
             date: "May 15, 2024",
